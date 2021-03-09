@@ -12,8 +12,8 @@ namespace ETHotfix
             try
             {
                 //获取此UserID的网关session
-                User user = Game.Scene.GetComponent<UserComponent>().Get(request.UserID);
-                Session lastSession = Game.Scene.GetComponent<NetOuterComponent>().Get(user.GateSessionID);
+                User user = Game.Scene.GetComponent<UserComponent>().Get(request.UserId);
+                Session lastSession = Game.Scene.GetComponent<NetOuterComponent>().Get(user.GateSessionId);
                 
                 //移除session与user的绑定
                 lastSession.RemoveComponent<SessionUserComponent>();

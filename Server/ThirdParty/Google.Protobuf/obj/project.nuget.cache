@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zbz8FDooFdZZRwhl6hDj+VwosXdOtKyFXiof9i9QHNWB0yz6PWqF8ICcueHwWLRgxAMZD+IT2+FpW2vtQqKREQ==",
+  "dgSpecHash": "hppBifELRvHlGjOU4y7OZJiMnGKiCdFdhoX1WcGNBGpHUs7BHpJ1ZJV6tWQDTAQbDkSEhkKYJhxWf8mbpWoZpg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\ThirdParty\\Google.Protobuf\\Google.Protobuf.csproj",
+  "projectFilePath": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer0.11\\Server\\ThirdParty\\Google.Protobuf\\Google.Protobuf.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\chenbin\\.nuget\\packages\\microsoft.netcore.app\\2.2.0\\microsoft.netcore.app.2.2.0.nupkg.sha512",
     "C:\\Users\\chenbin\\.nuget\\packages\\microsoft.netcore.dotnetapphost\\2.2.0\\microsoft.netcore.dotnetapphost.2.2.0.nupkg.sha512",

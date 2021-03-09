@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zaLZ1pBPJ5Dt30V5yUmcalC1rEqwoy46tdsXBHNAwpvZbt8fkulrOX7ULjnSqLuneZ3Nh7QAI2gECZdbaLEhPw==",
+  "dgSpecHash": "JWTelO0TZXV1974hAeM4QrLmlyow1tIfrR2z7HAbA0rqFd5U5AKJzvGtbo/qI8Wcd2yRYPYCz5v1ZTGcJIveUg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\ThirdParty\\KcpLib\\KcpLib.csproj",
+  "projectFilePath": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer0.11\\Server\\ThirdParty\\KcpLib\\KcpLib.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\chenbin\\.nuget\\packages\\microsoft.netcore.app\\2.2.0\\microsoft.netcore.app.2.2.0.nupkg.sha512",
     "C:\\Users\\chenbin\\.nuget\\packages\\microsoft.netcore.dotnetapphost\\2.2.0\\microsoft.netcore.dotnetapphost.2.2.0.nupkg.sha512",

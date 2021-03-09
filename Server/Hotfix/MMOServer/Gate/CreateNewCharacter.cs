@@ -6,9 +6,9 @@ namespace ETHotfix
 {
     //客户端请求在当前账号下创建新的角色
     [MessageHandler(AppType.Gate)]
-    public class CreateNewCharacter : AMRpcHandler<CreateNewCharacter_C2G, CreateNewCharacter_G2C>
+    public class CreateNewCharacter : AMRpcHandler<CreateNewCharacter_C2G, CharacterMessage_G2C>
     {
-        protected override async ETTask Run(Session session, CreateNewCharacter_C2G request, CreateNewCharacter_G2C response, Action reply)
+        protected override async ETTask Run(Session session, CreateNewCharacter_C2G request, CharacterMessage_G2C response, Action reply)
         {
             try
             {
@@ -36,7 +36,7 @@ namespace ETHotfix
                 User user = session.GetComponent<SessionUserComponent>().User;
                 
                 //获取玩家所在大区编号
-                UserInfo userInfo = await dbProxy.Query<UserInfo>(user.UserID);
+                UserInfo userInfo = await dbProxy.Query<UserInfo>(user.UserId);
                 int GateAppId = RealmHelper.GetGateAppIdFromUserId(userInfo.Id);
                 userInfo.LastPlay = request.Index;
 
@@ -45,7 +45,7 @@ namespace ETHotfix
                 List<ComponentWithId> result = await dbProxy.Query<Character>($"{{Name:'{request.Name}'}}");
                 foreach(var a in result)
                 {
-                    if(RealmHelper.GetGateAppIdFromUserId(((Character)a).UserID) == GateAppId)
+                    if(RealmHelper.GetGateAppIdFromUserId(((Character)a).UserId) == GateAppId)
                     {
                         //出现同名角色
                         response.Error = MMOErrorCode.ERR_CreateNewCharacter;
@@ -60,7 +60,8 @@ namespace ETHotfix
                 character.Class = request.Class;
                 character.Name = request.Name;
                 character.Level = 1;
-                character.Region = request.Region; 
+                character.Map = 1001;
+                character.Region = 03; 
                 character.X = request.X; 
                 character.Y = request.Y;
                 character.Z = request.Z;
@@ -69,26 +70,14 @@ namespace ETHotfix
                 character.Index = request.Index;
 
                 //构建同样的返回数据,减少前端再查询一次此角色数据
-                response.Race = request.Race;
-                response.Class = request.Class;
-                response.CharaID = character.Id;
-                response.Name = request.Name;
-                response.Level = 1;
-                response.Region = request.Region;
-                response.X = request.X;
-                response.Y = request.Y;
-                response.Z = request.Z;
-                response.Money = 0;
-                response.Mail = 0;
-                response.Index = request.Index;
+                response.Character = GateHelper.CharacterInfoByData(character,false);
                 
-
                 //新角色默认装备
                 List<Component> equipInfo = await dbProxy.Query2<GlobalInfo>($"{{Type:'{request.Class}Equip'}}");
                 foreach(GlobalInfo row in equipInfo)
                 {
                     character.Equipments = row.Equipments;
-                    response.Equipments = To.RepeatedField<EquipInfo>(row.Equipments);
+                    response.Character.Equipments = To.RepeatedField<EquipInfo>(row.Equipments);
                 }
 
                 //存储数据

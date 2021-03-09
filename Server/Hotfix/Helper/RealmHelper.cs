@@ -28,13 +28,13 @@ namespace ETHotfix
                 User user = Game.Scene.GetComponent<UserComponent>().Get(userId);
 
                 if(toClient){
-                    Session cSession = Game.Scene.GetComponent<NetOuterComponent>().Get(user.GateSessionID);
+                    Session cSession = Game.Scene.GetComponent<NetOuterComponent>().Get(user.GateSessionId);
                     cSession.Send(new KickOutPlayer_R2C(){Message = "原登录下线《===="});
                 }
                 
 
                 //通知Gate服务器移除指定User
-                await userGateSession.Call(new KickOutPlayer_R2G() { UserID = userId });
+                await userGateSession.Call(new KickOutPlayer_R2G() { UserId= userId });
             }
         }
         

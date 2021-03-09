@@ -18,17 +18,20 @@ namespace ETModel
         /// <summary>
         /// 来自数据库中的永久ID
         /// </summary>
-        public long UserID { get; private set; }
+        public long UserId { get; private set; }
         
         /// <summary>
-        /// 玩家GateActorID
+        /// 玩家GateActorId,是网关User的实例id
         /// </summary>
-        public long GActorID { get; set; }
+        public long GActorId { get; set; }
 
         /// <summary>
-        /// 玩家ClientActorID
+        /// 玩家ClientActorId,是网关session的实例id
         /// </summary>
-        public long CActorID { get; set; }
+        public long CActorId { get; set; }
+
+        public long UnitId { get; set; }
+        public long CharaId { get; set; }
         
         /// <summary>
         /// 默认为假 Session断开/离开房间时触发离线
@@ -37,7 +40,7 @@ namespace ETModel
 
         public void Awake(long userid)
         {
-            this.UserID = userid;
+            this.UserId = userid;
         }
 
         public override void Dispose()
@@ -49,8 +52,8 @@ namespace ETModel
 
             base.Dispose();
 
-            this.UserID = 0;
-            this.GActorID = 0;
+            this.UserId = 0;
+            this.GActorId = 0;
             this.isOffline = false;
         }
     }

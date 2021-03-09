@@ -17,7 +17,9 @@ namespace ETModel
     /// </summary>
     public class Character : Entity
     {
-        public long UserID {get; set;}
+        public long UserId {get; set;}
+
+        public long CharaId {get;set;}
         //昵称
         public string Name { get; set;}
 
@@ -46,10 +48,10 @@ namespace ETModel
         public string Title { get; set; }
 
         //地图
-        public string Map { get; set; }
+        public long Map { get; set; }
 
         //区域编号
-        public string Region { get; set; }
+        public long Region { get; set; }
 
         //坐标 
         public float X;
@@ -65,11 +67,11 @@ namespace ETModel
         //public List<Ca>
         public void Awake(string name,long userID)
         {
-            UserID = userID;
+            UserId = userID;
+            CharaId = this.Id;
             Name = name;
             Level = 1;
             Experience = 1;
-            Map = "Village";
             Sex = "男";
             Race = "";
             Title = "";

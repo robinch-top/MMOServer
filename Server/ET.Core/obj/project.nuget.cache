@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Dj/VqcA1UpPKz4YLncoNp89azZloy6UFGWCpeTBDE/Wd4H8ZsZxDF25+Tc3ekKrjXWZQ8T2tSdAki3QZQeTTvw==",
+  "dgSpecHash": "zWtj+mVhOQk+8lOjlZ6s9mx12niPqcmFowToaOt1KHLsD7lj8A0a1IOGF8iI/O6YIHuFa4CSt5QDOxlQy0wl0Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\ET.Core\\Server.ET.Core.csproj",
+  "projectFilePath": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer0.11\\Server\\ET.Core\\Server.ET.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\chenbin\\.nuget\\packages\\commandlineparser\\2.2.1\\commandlineparser.2.2.1.nupkg.sha512",
     "C:\\Users\\chenbin\\.nuget\\packages\\dnsclient\\1.0.7\\dnsclient.1.0.7.nupkg.sha512",

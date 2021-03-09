@@ -11,7 +11,7 @@ namespace ETHotfix
             try
             {
                 long key = RandomHelper.RandInt64();
-                Game.Scene.GetComponent<SessionKeyComponent>().Add(key, request.UserID);
+                Game.Scene.GetComponent<SessionKeyComponent>().Add(key, request.UserId);
                 response.GateLoginKey = key;
                 reply();
 

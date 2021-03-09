@@ -11,7 +11,7 @@ namespace ETModel
 	{
 		public int RpcId { get; set; }
 
-		public long UserID { get; set; }
+		public long UserId { get; set; }
 
 	}
 
@@ -35,9 +35,9 @@ namespace ETModel
 	{
 		public int RpcId { get; set; }
 
-		public long UserID { get; set; }
+		public long UserId { get; set; }
 
-		public int GateAppID { get; set; }
+		public int GateAppId { get; set; }
 
 	}
 
@@ -47,7 +47,7 @@ namespace ETModel
 	{
 		public int RpcId { get; set; }
 
-		public long UserID { get; set; }
+		public long UserId { get; set; }
 
 	}
 
@@ -56,7 +56,7 @@ namespace ETModel
 	{
 		public int RpcId { get; set; }
 
-		public long UserID { get; set; }
+		public long UserId { get; set; }
 
 	}
 
@@ -68,6 +68,33 @@ namespace ETModel
 		public int Error { get; set; }
 
 		public string Message { get; set; }
+
+	}
+
+	[Message(InnerOpcode.CreateUnit_G2M)]
+	public partial class CreateUnit_G2M: IMessage
+	{
+		public int RpcId { get; set; }
+
+		public long UserId { get; set; }
+
+		public long CharaId { get; set; }
+
+		public long GActorId { get; set; }
+
+		public long CActorId { get; set; }
+
+	}
+
+//通知Gate更新User的ActorId
+	[Message(InnerOpcode.Actor_EnterMapSucess_M2G)]
+	public partial class Actor_EnterMapSucess_M2G: IActorMessage
+	{
+		public long ActorId { get; set; }
+
+		public long GamerId { get; set; }
+
+		public long UnitId { get; set; }
 
 	}
 

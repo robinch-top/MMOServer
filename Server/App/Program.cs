@@ -72,23 +72,20 @@ namespace App
 				// manager server组件，用来管理其它进程使用
 				Game.Scene.AddComponent<AppManagerComponent>();
 				Game.Scene.AddComponent<RealmGateAddressComponent>();
-				Game.Scene.AddComponent<GateSessionKeyComponent>();
 				
-				Game.Scene.AddComponent<PlayerComponent>();
+				Game.Scene.AddComponent<UserComponent>();
 				Game.Scene.AddComponent<UnitComponent>();
+				Game.Scene.AddComponent<RoomComponent>();
+				Game.Scene.AddComponent<UnitStateMgrComponent>();
 
 				// 配置管理
 				Game.Scene.AddComponent<ConfigComponent>();
 				Game.Scene.AddComponent<ConsoleComponent>();
-
-				Game.Scene.AddComponent<UserComponent>();
 				Game.Scene.AddComponent<SessionKeyComponent>();
 				Game.Scene.AddComponent<OnlineComponent>();
-
-				// 网络同步方式组件
-				Game.Scene.AddComponent<NetSyncComponent,SyncType>(SyncType.State);
 				
-				
+				long fixedUpdateInterval = (long)(EventSystem.FixedUpdateTime * 1000);
+                long timing = TimeHelper.ClientNow();
 				while (true)
 				{
 					try
@@ -96,6 +93,11 @@ namespace App
 						Thread.Sleep(1);
 						OneThreadSynchronizationContext.Instance.Update();
 						Game.EventSystem.Update();
+						if (TimeHelper.ClientNow() - timing >= fixedUpdateInterval)
+                        {
+                            timing += fixedUpdateInterval;
+                            Game.EventSystem.FixedUpdate();
+                        }
 					}
 					catch (Exception e)
 					{

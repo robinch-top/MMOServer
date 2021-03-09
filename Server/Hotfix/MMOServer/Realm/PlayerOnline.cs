@@ -11,9 +11,9 @@ namespace ETHotfix
             OnlineComponent onlineComponent = Game.Scene.GetComponent<OnlineComponent>();
 
             //检查玩家是否在线 如不在线则添加
-            if (onlineComponent.GetGateAppId(message.UserID) == 0)
+            if (onlineComponent.GetGateAppId(message.UserId) == 0)
             {
-                onlineComponent.Add(message.UserID, message.GateAppID);
+                onlineComponent.Add(message.UserId, message.GateAppId);
             }
             else
             {

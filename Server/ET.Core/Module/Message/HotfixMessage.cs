@@ -352,18 +352,18 @@ namespace ETModel {
       }
     }
 
-    private long userID_;
-    public long UserID {
-      get { return userID_; }
+    private long userId_;
+    public long UserId {
+      get { return userId_; }
       set {
-        userID_ = value;
+        userId_ = value;
       }
     }
 
     public void WriteTo(pb::CodedOutputStream output) {
-      if (UserID != 0L) {
+      if (UserId != 0L) {
         output.WriteRawTag(8);
-        output.WriteInt64(UserID);
+        output.WriteInt64(UserId);
       }
       if (RpcId != 0) {
         output.WriteRawTag(208, 5);
@@ -390,14 +390,14 @@ namespace ETModel {
       if (Message.Length != 0) {
         size += 2 + pb::CodedOutputStream.ComputeStringSize(Message);
       }
-      if (UserID != 0L) {
-        size += 1 + pb::CodedOutputStream.ComputeInt64Size(UserID);
+      if (UserId != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(UserId);
       }
       return size;
     }
 
     public void MergeFrom(pb::CodedInputStream input) {
-      userID_ = 0;
+      userId_ = 0;
       rpcId_ = 0;
       error_ = 0;
       message_ = "";
@@ -408,7 +408,7 @@ namespace ETModel {
             input.SkipLastField();
             break;
           case 8: {
-            UserID = input.ReadInt64();
+            UserId = input.ReadInt64();
             break;
           }
           case 720: {
@@ -660,18 +660,18 @@ namespace ETModel {
       }
     }
 
-    private long userID_;
-    public long UserID {
-      get { return userID_; }
+    private long userId_;
+    public long UserId {
+      get { return userId_; }
       set {
-        userID_ = value;
+        userId_ = value;
       }
     }
 
     public void WriteTo(pb::CodedOutputStream output) {
-      if (UserID != 0L) {
+      if (UserId != 0L) {
         output.WriteRawTag(8);
-        output.WriteInt64(UserID);
+        output.WriteInt64(UserId);
       }
       if (RpcId != 0) {
         output.WriteRawTag(208, 5);
@@ -684,14 +684,14 @@ namespace ETModel {
       if (RpcId != 0) {
         size += 2 + pb::CodedOutputStream.ComputeInt32Size(RpcId);
       }
-      if (UserID != 0L) {
-        size += 1 + pb::CodedOutputStream.ComputeInt64Size(UserID);
+      if (UserId != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(UserId);
       }
       return size;
     }
 
     public void MergeFrom(pb::CodedInputStream input) {
-      userID_ = 0;
+      userId_ = 0;
       rpcId_ = 0;
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
@@ -700,7 +700,7 @@ namespace ETModel {
             input.SkipLastField();
             break;
           case 8: {
-            UserID = input.ReadInt64();
+            UserId = input.ReadInt64();
             break;
           }
           case 720: {
@@ -1593,18 +1593,18 @@ namespace ETModel {
       }
     }
 
-    private long userID_;
-    public long UserID {
-      get { return userID_; }
+    private long userId_;
+    public long UserId {
+      get { return userId_; }
       set {
-        userID_ = value;
+        userId_ = value;
       }
     }
 
     public void WriteTo(pb::CodedOutputStream output) {
-      if (UserID != 0L) {
+      if (UserId != 0L) {
         output.WriteRawTag(8);
-        output.WriteInt64(UserID);
+        output.WriteInt64(UserId);
       }
       if (RpcId != 0) {
         output.WriteRawTag(208, 5);
@@ -1624,14 +1624,14 @@ namespace ETModel {
       if (ActorId != 0L) {
         size += 2 + pb::CodedOutputStream.ComputeInt64Size(ActorId);
       }
-      if (UserID != 0L) {
-        size += 1 + pb::CodedOutputStream.ComputeInt64Size(UserID);
+      if (UserId != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(UserId);
       }
       return size;
     }
 
     public void MergeFrom(pb::CodedInputStream input) {
-      userID_ = 0;
+      userId_ = 0;
       rpcId_ = 0;
       actorId_ = 0;
       uint tag;
@@ -1641,7 +1641,7 @@ namespace ETModel {
             input.SkipLastField();
             break;
           case 8: {
-            UserID = input.ReadInt64();
+            UserId = input.ReadInt64();
             break;
           }
           case 720: {
@@ -1926,9 +1926,9 @@ namespace ETModel {
 
   }
 
-  public partial class CreateNewCharacter_G2C : pb::IMessage {
-    private static readonly pb::MessageParser<CreateNewCharacter_G2C> _parser = new pb::MessageParser<CreateNewCharacter_G2C>(() => (CreateNewCharacter_G2C)MessagePool.Instance.Fetch(typeof(CreateNewCharacter_G2C)));
-    public static pb::MessageParser<CreateNewCharacter_G2C> Parser { get { return _parser; } }
+  public partial class CharacterMessage_G2C : pb::IMessage {
+    private static readonly pb::MessageParser<CharacterMessage_G2C> _parser = new pb::MessageParser<CharacterMessage_G2C>(() => (CharacterMessage_G2C)MessagePool.Instance.Fetch(typeof(CharacterMessage_G2C)));
+    public static pb::MessageParser<CharacterMessage_G2C> Parser { get { return _parser; } }
 
     private int rpcId_;
     public int RpcId {
@@ -1954,184 +1954,19 @@ namespace ETModel {
       }
     }
 
-    private long charaID_;
-    public long CharaID {
-      get { return charaID_; }
+    private global::ETModel.CharacterInfo character_;
+    public global::ETModel.CharacterInfo Character {
+      get { return character_; }
       set {
-        charaID_ = value;
+        character_ = value;
       }
-    }
-
-    private string name_ = "";
-    public string Name {
-      get { return name_; }
-      set {
-        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    private string class_ = "";
-    public string Class {
-      get { return class_; }
-      set {
-        class_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    private string race_ = "";
-    public string Race {
-      get { return race_; }
-      set {
-        race_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    private int level_;
-    public int Level {
-      get { return level_; }
-      set {
-        level_ = value;
-      }
-    }
-
-    private long experience_;
-    public long Experience {
-      get { return experience_; }
-      set {
-        experience_ = value;
-      }
-    }
-
-    private int money_;
-    public int Money {
-      get { return money_; }
-      set {
-        money_ = value;
-      }
-    }
-
-    private int mail_;
-    public int Mail {
-      get { return mail_; }
-      set {
-        mail_ = value;
-      }
-    }
-
-    private string map_ = "";
-    public string Map {
-      get { return map_; }
-      set {
-        map_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    private string region_ = "";
-    public string Region {
-      get { return region_; }
-      set {
-        region_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    private float x_;
-    public float X {
-      get { return x_; }
-      set {
-        x_ = value;
-      }
-    }
-
-    private float y_;
-    public float Y {
-      get { return y_; }
-      set {
-        y_ = value;
-      }
-    }
-
-    private float z_;
-    public float Z {
-      get { return z_; }
-      set {
-        z_ = value;
-      }
-    }
-
-    private int index_;
-    public int Index {
-      get { return index_; }
-      set {
-        index_ = value;
-      }
-    }
-
-    private static readonly pb::FieldCodec<global::ETModel.EquipInfo> _repeated_equipments_codec
-        = pb::FieldCodec.ForMessage(122, global::ETModel.EquipInfo.Parser);
-    private pbc::RepeatedField<global::ETModel.EquipInfo> equipments_ = new pbc::RepeatedField<global::ETModel.EquipInfo>();
-    public pbc::RepeatedField<global::ETModel.EquipInfo> Equipments {
-      get { return equipments_; }
-      set { equipments_ = value; }
     }
 
     public void WriteTo(pb::CodedOutputStream output) {
-      if (CharaID != 0L) {
-        output.WriteRawTag(8);
-        output.WriteInt64(CharaID);
+      if (character_ != null) {
+        output.WriteRawTag(10);
+        output.WriteMessage(Character);
       }
-      if (Name.Length != 0) {
-        output.WriteRawTag(18);
-        output.WriteString(Name);
-      }
-      if (Class.Length != 0) {
-        output.WriteRawTag(26);
-        output.WriteString(Class);
-      }
-      if (Race.Length != 0) {
-        output.WriteRawTag(34);
-        output.WriteString(Race);
-      }
-      if (Level != 0) {
-        output.WriteRawTag(40);
-        output.WriteInt32(Level);
-      }
-      if (Experience != 0L) {
-        output.WriteRawTag(48);
-        output.WriteInt64(Experience);
-      }
-      if (Money != 0) {
-        output.WriteRawTag(56);
-        output.WriteInt32(Money);
-      }
-      if (Mail != 0) {
-        output.WriteRawTag(64);
-        output.WriteInt32(Mail);
-      }
-      if (Map.Length != 0) {
-        output.WriteRawTag(74);
-        output.WriteString(Map);
-      }
-      if (Region.Length != 0) {
-        output.WriteRawTag(82);
-        output.WriteString(Region);
-      }
-      if (X != 0F) {
-        output.WriteRawTag(93);
-        output.WriteFloat(X);
-      }
-      if (Y != 0F) {
-        output.WriteRawTag(101);
-        output.WriteFloat(Y);
-      }
-      if (Z != 0F) {
-        output.WriteRawTag(109);
-        output.WriteFloat(Z);
-      }
-      if (Index != 0) {
-        output.WriteRawTag(112);
-        output.WriteInt32(Index);
-      }
-      equipments_.WriteTo(output, _repeated_equipments_codec);
       if (RpcId != 0) {
         output.WriteRawTag(208, 5);
         output.WriteInt32(RpcId);
@@ -2157,69 +1992,14 @@ namespace ETModel {
       if (Message.Length != 0) {
         size += 2 + pb::CodedOutputStream.ComputeStringSize(Message);
       }
-      if (CharaID != 0L) {
-        size += 1 + pb::CodedOutputStream.ComputeInt64Size(CharaID);
+      if (character_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Character);
       }
-      if (Name.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
-      }
-      if (Class.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Class);
-      }
-      if (Race.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Race);
-      }
-      if (Level != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeInt32Size(Level);
-      }
-      if (Experience != 0L) {
-        size += 1 + pb::CodedOutputStream.ComputeInt64Size(Experience);
-      }
-      if (Money != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeInt32Size(Money);
-      }
-      if (Mail != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeInt32Size(Mail);
-      }
-      if (Map.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Map);
-      }
-      if (Region.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Region);
-      }
-      if (X != 0F) {
-        size += 1 + 4;
-      }
-      if (Y != 0F) {
-        size += 1 + 4;
-      }
-      if (Z != 0F) {
-        size += 1 + 4;
-      }
-      if (Index != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeInt32Size(Index);
-      }
-      size += equipments_.CalculateSize(_repeated_equipments_codec);
       return size;
     }
 
     public void MergeFrom(pb::CodedInputStream input) {
-      charaID_ = 0;
-      name_ = "";
-      class_ = "";
-      race_ = "";
-      level_ = 0;
-      experience_ = 0;
-      money_ = 0;
-      mail_ = 0;
-      map_ = "";
-      region_ = "";
-      x_ = 0f;
-      y_ = 0f;
-      z_ = 0f;
-      index_ = 0;
-      for (int i = 0; i < equipments_.Count; i++) { MessagePool.Instance.Recycle(equipments_[i]); }
-      equipments_.Clear();
+      if (character_ != null) MessagePool.Instance.Recycle(character_); character_ = null;
       rpcId_ = 0;
       error_ = 0;
       message_ = "";
@@ -2229,64 +2009,11 @@ namespace ETModel {
           default:
             input.SkipLastField();
             break;
-          case 8: {
-            CharaID = input.ReadInt64();
-            break;
-          }
-          case 18: {
-            Name = input.ReadString();
-            break;
-          }
-          case 26: {
-            Class = input.ReadString();
-            break;
-          }
-          case 34: {
-            Race = input.ReadString();
-            break;
-          }
-          case 40: {
-            Level = input.ReadInt32();
-            break;
-          }
-          case 48: {
-            Experience = input.ReadInt64();
-            break;
-          }
-          case 56: {
-            Money = input.ReadInt32();
-            break;
-          }
-          case 64: {
-            Mail = input.ReadInt32();
-            break;
-          }
-          case 74: {
-            Map = input.ReadString();
-            break;
-          }
-          case 82: {
-            Region = input.ReadString();
-            break;
-          }
-          case 93: {
-            X = input.ReadFloat();
-            break;
-          }
-          case 101: {
-            Y = input.ReadFloat();
-            break;
-          }
-          case 109: {
-            Z = input.ReadFloat();
-            break;
-          }
-          case 112: {
-            Index = input.ReadInt32();
-            break;
-          }
-          case 122: {
-            equipments_.AddEntriesFrom(input, _repeated_equipments_codec);
+          case 10: {
+            if (character_ == null) {
+              character_ = new global::ETModel.CharacterInfo();
+            }
+            input.ReadMessage(character_);
             break;
           }
           case 720: {
@@ -2355,9 +2082,6 @@ namespace ETModel {
 
   }
 
-  /// <summary>
-  /// 返回角色列表
-  /// </summary>
   public partial class GetCharacters_G2C : pb::IMessage {
     private static readonly pb::MessageParser<GetCharacters_G2C> _parser = new pb::MessageParser<GetCharacters_G2C>(() => (GetCharacters_G2C)MessagePool.Instance.Fetch(typeof(GetCharacters_G2C)));
     public static pb::MessageParser<GetCharacters_G2C> Parser { get { return _parser; } }
@@ -2451,6 +2175,91 @@ namespace ETModel {
           }
           case 738: {
             Message = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  public partial class GetCharacter_C2G : pb::IMessage {
+    private static readonly pb::MessageParser<GetCharacter_C2G> _parser = new pb::MessageParser<GetCharacter_C2G>(() => (GetCharacter_C2G)MessagePool.Instance.Fetch(typeof(GetCharacter_C2G)));
+    public static pb::MessageParser<GetCharacter_C2G> Parser { get { return _parser; } }
+
+    private int rpcId_;
+    public int RpcId {
+      get { return rpcId_; }
+      set {
+        rpcId_ = value;
+      }
+    }
+
+    private long userId_;
+    public long UserId {
+      get { return userId_; }
+      set {
+        userId_ = value;
+      }
+    }
+
+    private long charaId_;
+    public long CharaId {
+      get { return charaId_; }
+      set {
+        charaId_ = value;
+      }
+    }
+
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (UserId != 0L) {
+        output.WriteRawTag(8);
+        output.WriteInt64(UserId);
+      }
+      if (CharaId != 0L) {
+        output.WriteRawTag(16);
+        output.WriteInt64(CharaId);
+      }
+      if (RpcId != 0) {
+        output.WriteRawTag(208, 5);
+        output.WriteInt32(RpcId);
+      }
+    }
+
+    public int CalculateSize() {
+      int size = 0;
+      if (RpcId != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeInt32Size(RpcId);
+      }
+      if (UserId != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(UserId);
+      }
+      if (CharaId != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(CharaId);
+      }
+      return size;
+    }
+
+    public void MergeFrom(pb::CodedInputStream input) {
+      userId_ = 0;
+      charaId_ = 0;
+      rpcId_ = 0;
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            input.SkipLastField();
+            break;
+          case 8: {
+            UserId = input.ReadInt64();
+            break;
+          }
+          case 16: {
+            CharaId = input.ReadInt64();
+            break;
+          }
+          case 720: {
+            RpcId = input.ReadInt32();
             break;
           }
         }
@@ -2654,34 +2463,34 @@ namespace ETModel {
     private static readonly pb::MessageParser<GamerInfo> _parser = new pb::MessageParser<GamerInfo>(() => (GamerInfo)MessagePool.Instance.Fetch(typeof(GamerInfo)));
     public static pb::MessageParser<GamerInfo> Parser { get { return _parser; } }
 
-    private long userID_;
+    private long userId_;
     /// <summary>
     ///玩家ID
     /// </summary>
-    public long UserID {
-      get { return userID_; }
+    public long UserId {
+      get { return userId_; }
       set {
-        userID_ = value;
+        userId_ = value;
       }
     }
 
     public void WriteTo(pb::CodedOutputStream output) {
-      if (UserID != 0L) {
+      if (UserId != 0L) {
         output.WriteRawTag(8);
-        output.WriteInt64(UserID);
+        output.WriteInt64(UserId);
       }
     }
 
     public int CalculateSize() {
       int size = 0;
-      if (UserID != 0L) {
-        size += 1 + pb::CodedOutputStream.ComputeInt64Size(UserID);
+      if (UserId != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(UserId);
       }
       return size;
     }
 
     public void MergeFrom(pb::CodedInputStream input) {
-      userID_ = 0;
+      userId_ = 0;
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
         switch(tag) {
@@ -2689,7 +2498,7 @@ namespace ETModel {
             input.SkipLastField();
             break;
           case 8: {
-            UserID = input.ReadInt64();
+            UserId = input.ReadInt64();
             break;
           }
         }
@@ -2705,11 +2514,19 @@ namespace ETModel {
     private static readonly pb::MessageParser<CharacterInfo> _parser = new pb::MessageParser<CharacterInfo>(() => (CharacterInfo)MessagePool.Instance.Fetch(typeof(CharacterInfo)));
     public static pb::MessageParser<CharacterInfo> Parser { get { return _parser; } }
 
-    private long userID_;
-    public long UserID {
-      get { return userID_; }
+    private long userId_;
+    public long UserId {
+      get { return userId_; }
       set {
-        userID_ = value;
+        userId_ = value;
+      }
+    }
+
+    private long charaId_;
+    public long CharaId {
+      get { return charaId_; }
+      set {
+        charaId_ = value;
       }
     }
 
@@ -2785,19 +2602,19 @@ namespace ETModel {
       }
     }
 
-    private string map_ = "";
-    public string Map {
+    private long map_;
+    public long Map {
       get { return map_; }
       set {
-        map_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+        map_ = value;
       }
     }
 
-    private string region_ = "";
-    public string Region {
+    private long region_;
+    public long Region {
       get { return region_; }
       set {
-        region_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+        region_ = value;
       }
     }
 
@@ -2834,7 +2651,7 @@ namespace ETModel {
     }
 
     private static readonly pb::FieldCodec<global::ETModel.EquipInfo> _repeated_equipments_codec
-        = pb::FieldCodec.ForMessage(138, global::ETModel.EquipInfo.Parser);
+        = pb::FieldCodec.ForMessage(146, global::ETModel.EquipInfo.Parser);
     private pbc::RepeatedField<global::ETModel.EquipInfo> equipments_ = new pbc::RepeatedField<global::ETModel.EquipInfo>();
     public pbc::RepeatedField<global::ETModel.EquipInfo> Equipments {
       get { return equipments_; }
@@ -2842,68 +2659,72 @@ namespace ETModel {
     }
 
     public void WriteTo(pb::CodedOutputStream output) {
-      if (UserID != 0L) {
+      if (UserId != 0L) {
         output.WriteRawTag(8);
-        output.WriteInt64(UserID);
+        output.WriteInt64(UserId);
+      }
+      if (CharaId != 0L) {
+        output.WriteRawTag(16);
+        output.WriteInt64(CharaId);
       }
       if (Name.Length != 0) {
-        output.WriteRawTag(18);
+        output.WriteRawTag(26);
         output.WriteString(Name);
       }
       if (Sex.Length != 0) {
-        output.WriteRawTag(26);
+        output.WriteRawTag(34);
         output.WriteString(Sex);
       }
       if (Class.Length != 0) {
-        output.WriteRawTag(34);
+        output.WriteRawTag(42);
         output.WriteString(Class);
       }
       if (Race.Length != 0) {
-        output.WriteRawTag(42);
+        output.WriteRawTag(50);
         output.WriteString(Race);
       }
       if (Level != 0) {
-        output.WriteRawTag(48);
+        output.WriteRawTag(56);
         output.WriteInt32(Level);
       }
       if (Experience != 0L) {
-        output.WriteRawTag(56);
+        output.WriteRawTag(64);
         output.WriteInt64(Experience);
       }
       if (Money != 0) {
-        output.WriteRawTag(64);
+        output.WriteRawTag(72);
         output.WriteInt32(Money);
       }
       if (Mail != 0) {
-        output.WriteRawTag(72);
+        output.WriteRawTag(80);
         output.WriteInt32(Mail);
       }
       if (Title.Length != 0) {
-        output.WriteRawTag(82);
+        output.WriteRawTag(90);
         output.WriteString(Title);
       }
-      if (Map.Length != 0) {
-        output.WriteRawTag(90);
-        output.WriteString(Map);
+      if (Map != 0L) {
+        output.WriteRawTag(96);
+        output.WriteInt64(Map);
       }
-      if (Region.Length != 0) {
-        output.WriteRawTag(98);
-        output.WriteString(Region);
+      if (Region != 0L) {
+        output.WriteRawTag(104);
+        output.WriteInt64(Region);
       }
       if (X != 0F) {
-        output.WriteRawTag(109);
+        output.WriteRawTag(117);
         output.WriteFloat(X);
       }
       if (Y != 0F) {
-        output.WriteRawTag(117);
+        output.WriteRawTag(125);
         output.WriteFloat(Y);
       }
       if (Z != 0F) {
-        output.WriteRawTag(125);
+        output.WriteRawTag(133, 1);
         output.WriteFloat(Z);
       }
       if (Index != 0) {
-        output.WriteRawTag(128, 1);
+        output.WriteRawTag(136, 1);
         output.WriteInt32(Index);
       }
       equipments_.WriteTo(output, _repeated_equipments_codec);
@@ -2911,8 +2732,11 @@ namespace ETModel {
 
     public int CalculateSize() {
       int size = 0;
-      if (UserID != 0L) {
-        size += 1 + pb::CodedOutputStream.ComputeInt64Size(UserID);
+      if (UserId != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(UserId);
+      }
+      if (CharaId != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(CharaId);
       }
       if (Name.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
@@ -2941,11 +2765,11 @@ namespace ETModel {
       if (Title.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Title);
       }
-      if (Map.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Map);
+      if (Map != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(Map);
       }
-      if (Region.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Region);
+      if (Region != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(Region);
       }
       if (X != 0F) {
         size += 1 + 4;
@@ -2954,7 +2778,7 @@ namespace ETModel {
         size += 1 + 4;
       }
       if (Z != 0F) {
-        size += 1 + 4;
+        size += 2 + 4;
       }
       if (Index != 0) {
         size += 2 + pb::CodedOutputStream.ComputeInt32Size(Index);
@@ -2964,7 +2788,8 @@ namespace ETModel {
     }
 
     public void MergeFrom(pb::CodedInputStream input) {
-      userID_ = 0;
+      userId_ = 0;
+      charaId_ = 0;
       name_ = "";
       sex_ = "";
       class_ = "";
@@ -2974,8 +2799,8 @@ namespace ETModel {
       money_ = 0;
       mail_ = 0;
       title_ = "";
-      map_ = "";
-      region_ = "";
+      map_ = 0;
+      region_ = 0;
       x_ = 0f;
       y_ = 0f;
       z_ = 0f;
@@ -2989,70 +2814,74 @@ namespace ETModel {
             input.SkipLastField();
             break;
           case 8: {
-            UserID = input.ReadInt64();
+            UserId = input.ReadInt64();
             break;
           }
-          case 18: {
-            Name = input.ReadString();
+          case 16: {
+            CharaId = input.ReadInt64();
             break;
           }
           case 26: {
-            Sex = input.ReadString();
+            Name = input.ReadString();
             break;
           }
           case 34: {
-            Class = input.ReadString();
+            Sex = input.ReadString();
             break;
           }
           case 42: {
+            Class = input.ReadString();
+            break;
+          }
+          case 50: {
             Race = input.ReadString();
             break;
           }
-          case 48: {
+          case 56: {
             Level = input.ReadInt32();
             break;
           }
-          case 56: {
+          case 64: {
             Experience = input.ReadInt64();
             break;
           }
-          case 64: {
+          case 72: {
             Money = input.ReadInt32();
             break;
           }
-          case 72: {
+          case 80: {
             Mail = input.ReadInt32();
             break;
           }
-          case 82: {
+          case 90: {
             Title = input.ReadString();
             break;
           }
-          case 90: {
-            Map = input.ReadString();
+          case 96: {
+            Map = input.ReadInt64();
             break;
           }
-          case 98: {
-            Region = input.ReadString();
-            break;
-          }
-          case 109: {
-            X = input.ReadFloat();
+          case 104: {
+            Region = input.ReadInt64();
             break;
           }
           case 117: {
-            Y = input.ReadFloat();
+            X = input.ReadFloat();
             break;
           }
           case 125: {
+            Y = input.ReadFloat();
+            break;
+          }
+          case 133: {
             Z = input.ReadFloat();
             break;
           }
-          case 128: {
+          case 136: {
             Index = input.ReadInt32();
             break;
           }
-          case 138: {
+          case 146: {
             equipments_.AddEntriesFrom(input, _repeated_equipments_codec);
             break;
           }

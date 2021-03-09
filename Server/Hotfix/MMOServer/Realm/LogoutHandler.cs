@@ -12,7 +12,7 @@ namespace ETHotfix
         protected override async ETTask Run(Session session, Logout_C2R message)
         {
             //玩家退出登录
-            await RealmHelper.KickOutPlayer(message.UserID,false);
+            await RealmHelper.KickOutPlayer(message.UserId,false);
         }
     }
 }

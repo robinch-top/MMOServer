@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\Hotfix\\Server.Hotfix.csproj": {}
+    "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer0.11\\Server\\Hotfix\\Server.Hotfix.csproj": {}
   },
   "projects": {
-    "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\ET.Core\\Server.ET.Core.csproj": {
+    "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer0.11\\Server\\ET.Core\\Server.ET.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\ET.Core\\Server.ET.Core.csproj",
+        "projectUniqueName": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer0.11\\Server\\ET.Core\\Server.ET.Core.csproj",
         "projectName": "ET.Core",
-        "projectPath": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\ET.Core\\Server.ET.Core.csproj",
+        "projectPath": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer0.11\\Server\\ET.Core\\Server.ET.Core.csproj",
         "packagesPath": "C:\\Users\\chenbin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\ET.Core\\obj\\",
+        "outputPath": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer0.11\\Server\\ET.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -30,20 +30,20 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\ThirdParty\\Google.Protobuf\\Google.Protobuf.csproj": {
-                "projectPath": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\ThirdParty\\Google.Protobuf\\Google.Protobuf.csproj"
+              "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer0.11\\Server\\ThirdParty\\Google.Protobuf\\Google.Protobuf.csproj": {
+                "projectPath": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer0.11\\Server\\ThirdParty\\Google.Protobuf\\Google.Protobuf.csproj"
               },
-              "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\ThirdParty\\KcpLib\\KcpLib.csproj": {
-                "projectPath": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\ThirdParty\\KcpLib\\KcpLib.csproj"
+              "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer0.11\\Server\\ThirdParty\\KcpLib\\KcpLib.csproj": {
+                "projectPath": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer0.11\\Server\\ThirdParty\\KcpLib\\KcpLib.csproj"
               },
-              "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Bson\\MongoDB.Bson.csproj": {
-                "projectPath": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Bson\\MongoDB.Bson.csproj"
+              "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer0.11\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Bson\\MongoDB.Bson.csproj": {
+                "projectPath": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer0.11\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Bson\\MongoDB.Bson.csproj"
               },
-              "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Driver.Core\\MongoDB.Driver.Core.csproj": {
-                "projectPath": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Driver.Core\\MongoDB.Driver.Core.csproj"
+              "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer0.11\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Driver.Core\\MongoDB.Driver.Core.csproj": {
+                "projectPath": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer0.11\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Driver.Core\\MongoDB.Driver.Core.csproj"
               },
-              "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Driver\\MongoDB.Driver.csproj": {
-                "projectPath": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Driver\\MongoDB.Driver.csproj"
+              "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer0.11\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Driver\\MongoDB.Driver.csproj": {
+                "projectPath": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer0.11\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Driver\\MongoDB.Driver.csproj"
               }
             }
           }
@@ -88,14 +88,14 @@
         }
       }
     },
-    "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\Hotfix\\Server.Hotfix.csproj": {
+    "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer0.11\\Server\\Hotfix\\Server.Hotfix.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\Hotfix\\Server.Hotfix.csproj",
+        "projectUniqueName": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer0.11\\Server\\Hotfix\\Server.Hotfix.csproj",
         "projectName": "Hotfix",
-        "projectPath": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\Hotfix\\Server.Hotfix.csproj",
+        "projectPath": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer0.11\\Server\\Hotfix\\Server.Hotfix.csproj",
         "packagesPath": "C:\\Users\\chenbin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\Hotfix\\obj\\",
+        "outputPath": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer0.11\\Server\\Hotfix\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -114,17 +114,17 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\ET.Core\\Server.ET.Core.csproj": {
-                "projectPath": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\ET.Core\\Server.ET.Core.csproj"
+              "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer0.11\\Server\\ET.Core\\Server.ET.Core.csproj": {
+                "projectPath": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer0.11\\Server\\ET.Core\\Server.ET.Core.csproj"
               },
-              "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Bson\\MongoDB.Bson.csproj": {
-                "projectPath": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Bson\\MongoDB.Bson.csproj"
+              "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer0.11\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Bson\\MongoDB.Bson.csproj": {
+                "projectPath": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer0.11\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Bson\\MongoDB.Bson.csproj"
               },
-              "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Driver.Core\\MongoDB.Driver.Core.csproj": {
-                "projectPath": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Driver.Core\\MongoDB.Driver.Core.csproj"
+              "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer0.11\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Driver.Core\\MongoDB.Driver.Core.csproj": {
+                "projectPath": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer0.11\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Driver.Core\\MongoDB.Driver.Core.csproj"
               },
-              "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Driver\\MongoDB.Driver.csproj": {
-                "projectPath": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Driver\\MongoDB.Driver.csproj"
+              "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer0.11\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Driver\\MongoDB.Driver.csproj": {
+                "projectPath": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer0.11\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Driver\\MongoDB.Driver.csproj"
               }
             }
           }
@@ -153,14 +153,14 @@
         }
       }
     },
-    "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\ThirdParty\\Google.Protobuf\\Google.Protobuf.csproj": {
+    "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer0.11\\Server\\ThirdParty\\Google.Protobuf\\Google.Protobuf.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\ThirdParty\\Google.Protobuf\\Google.Protobuf.csproj",
+        "projectUniqueName": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer0.11\\Server\\ThirdParty\\Google.Protobuf\\Google.Protobuf.csproj",
         "projectName": "Google.Protobuf",
-        "projectPath": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\ThirdParty\\Google.Protobuf\\Google.Protobuf.csproj",
+        "projectPath": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer0.11\\Server\\ThirdParty\\Google.Protobuf\\Google.Protobuf.csproj",
         "packagesPath": "C:\\Users\\chenbin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\ThirdParty\\Google.Protobuf\\obj\\",
+        "outputPath": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer0.11\\Server\\ThirdParty\\Google.Protobuf\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -179,8 +179,8 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Bson\\MongoDB.Bson.csproj": {
-                "projectPath": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Bson\\MongoDB.Bson.csproj"
+              "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer0.11\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Bson\\MongoDB.Bson.csproj": {
+                "projectPath": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer0.11\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Bson\\MongoDB.Bson.csproj"
               }
             }
           }
@@ -209,14 +209,14 @@
         }
       }
     },
-    "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\ThirdParty\\KcpLib\\KcpLib.csproj": {
+    "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer0.11\\Server\\ThirdParty\\KcpLib\\KcpLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\ThirdParty\\KcpLib\\KcpLib.csproj",
+        "projectUniqueName": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer0.11\\Server\\ThirdParty\\KcpLib\\KcpLib.csproj",
         "projectName": "KcpLib",
-        "projectPath": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\ThirdParty\\KcpLib\\KcpLib.csproj",
+        "projectPath": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer0.11\\Server\\ThirdParty\\KcpLib\\KcpLib.csproj",
         "packagesPath": "C:\\Users\\chenbin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\ThirdParty\\KcpLib\\obj\\",
+        "outputPath": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer0.11\\Server\\ThirdParty\\KcpLib\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -261,14 +261,14 @@
         }
       }
     },
-    "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Bson\\MongoDB.Bson.csproj": {
+    "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer0.11\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Bson\\MongoDB.Bson.csproj": {
       "version": "0.0.0-local",
       "restore": {
-        "projectUniqueName": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Bson\\MongoDB.Bson.csproj",
+        "projectUniqueName": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer0.11\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Bson\\MongoDB.Bson.csproj",
         "projectName": "MongoDB.Bson",
-        "projectPath": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Bson\\MongoDB.Bson.csproj",
+        "projectPath": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer0.11\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Bson\\MongoDB.Bson.csproj",
         "packagesPath": "C:\\Users\\chenbin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Bson\\obj\\",
+        "outputPath": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer0.11\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Bson\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -316,14 +316,14 @@
         }
       }
     },
-    "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Driver.Core\\MongoDB.Driver.Core.csproj": {
+    "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer0.11\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Driver.Core\\MongoDB.Driver.Core.csproj": {
       "version": "0.0.0-local",
       "restore": {
-        "projectUniqueName": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Driver.Core\\MongoDB.Driver.Core.csproj",
+        "projectUniqueName": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer0.11\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Driver.Core\\MongoDB.Driver.Core.csproj",
         "projectName": "MongoDB.Driver.Core",
-        "projectPath": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Driver.Core\\MongoDB.Driver.Core.csproj",
+        "projectPath": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer0.11\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Driver.Core\\MongoDB.Driver.Core.csproj",
         "packagesPath": "C:\\Users\\chenbin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Driver.Core\\obj\\",
+        "outputPath": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer0.11\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Driver.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -342,8 +342,8 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Bson\\MongoDB.Bson.csproj": {
-                "projectPath": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Bson\\MongoDB.Bson.csproj"
+              "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer0.11\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Bson\\MongoDB.Bson.csproj": {
+                "projectPath": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer0.11\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Bson\\MongoDB.Bson.csproj"
               }
             }
           }
@@ -379,14 +379,14 @@
         }
       }
     },
-    "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Driver\\MongoDB.Driver.csproj": {
+    "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer0.11\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Driver\\MongoDB.Driver.csproj": {
       "version": "0.0.0-local",
       "restore": {
-        "projectUniqueName": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Driver\\MongoDB.Driver.csproj",
+        "projectUniqueName": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer0.11\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Driver\\MongoDB.Driver.csproj",
         "projectName": "MongoDB.Driver",
-        "projectPath": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Driver\\MongoDB.Driver.csproj",
+        "projectPath": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer0.11\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Driver\\MongoDB.Driver.csproj",
         "packagesPath": "C:\\Users\\chenbin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Driver\\obj\\",
+        "outputPath": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer0.11\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Driver\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -405,11 +405,11 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Bson\\MongoDB.Bson.csproj": {
-                "projectPath": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Bson\\MongoDB.Bson.csproj"
+              "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer0.11\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Bson\\MongoDB.Bson.csproj": {
+                "projectPath": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer0.11\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Bson\\MongoDB.Bson.csproj"
               },
-              "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Driver.Core\\MongoDB.Driver.Core.csproj": {
-                "projectPath": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Driver.Core\\MongoDB.Driver.Core.csproj"
+              "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer0.11\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Driver.Core\\MongoDB.Driver.Core.csproj": {
+                "projectPath": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer0.11\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Driver.Core\\MongoDB.Driver.Core.csproj"
               }
             }
           }

@@ -46,7 +46,7 @@ namespace ETHotfix
                 }
                 IPEndPoint innerAddress = config.GetComponent<InnerConfig>().IPEndPoint;
                 Session gateSession = Game.Scene.GetComponent<NetInnerComponent>().Get(innerAddress);
-                GetLoginKey_G2R g2RGetLoginKey = (GetLoginKey_G2R)await gateSession.Call(new GetLoginKey_R2G() { UserID = account.Id });
+                GetLoginKey_G2R g2RGetLoginKey = (GetLoginKey_G2R)await gateSession.Call(new GetLoginKey_R2G() { UserId = account.Id });
 
                 // *** 分配网关地址 *** //
                 //如果有多台网关服务器，那就应该在realm上添加GateManagerComponent

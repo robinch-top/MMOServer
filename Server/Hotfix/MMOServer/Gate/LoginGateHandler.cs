@@ -44,17 +44,17 @@ namespace ETHotfix
                 IPEndPoint realmIPEndPoint = config.RealmConfig.GetComponent<InnerConfig>().IPEndPoint;
                 Session realmSession = Game.Scene.GetComponent<NetInnerComponent>().Get(realmIPEndPoint);
                 // 2个参数 1：UserID 2：GateAppID
-                realmSession.Send(new PlayerOnline_G2R() { UserID = user.UserID, GateAppID = config.StartConfig.AppId });
+                realmSession.Send(new PlayerOnline_G2R() { UserId = user.UserId, GateAppId = config.StartConfig.AppId });
                 
                 // 设置User的参数
-                user.GateAppID = config.StartConfig.AppId;
-                user.GateSessionID = session.InstanceId;
-                user.ActorID = 0;
+                user.GateAppId = config.StartConfig.AppId;
+                user.GateSessionId = session.InstanceId;
+                user.ActorId = 0;
 
                 // session.Send(new G2C_TestHotfixMessage() { Info = "recv hotfix message success" });
 
                 // 回复客户端
-                response.UserID = user.UserID;
+                response.UserId = user.UserId;
                 reply();
 
                 await ETTask.CompletedTask;

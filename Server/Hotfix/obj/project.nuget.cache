@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oI0fC8fxp0b7UexUYB2CR2lcuwP0pPCn87E46PHAtvDiRLQAKTvcsBP7jZwPknJW6BDjm0dt+I7F+fxlqtKsYw==",
+  "dgSpecHash": "BhyKaWq8r6jAhL4Ml8oaj8+9FfEktfmvvnE2qNkVHlR47a1DGHJl3Ir1z7aXV35+dy8vjE96BSz2uu78dWM1Nw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\Hotfix\\Server.Hotfix.csproj",
+  "projectFilePath": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer0.11\\Server\\Hotfix\\Server.Hotfix.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\chenbin\\.nuget\\packages\\commandlineparser\\2.2.1\\commandlineparser.2.2.1.nupkg.sha512",
     "C:\\Users\\chenbin\\.nuget\\packages\\dnsclient\\1.0.7\\dnsclient.1.0.7.nupkg.sha512",

@@ -5,7 +5,7 @@
    "version": "0.2.0",
    "configurations": [
         {
-            "name": "MMOServer (console)",
+            "name": "MMOServer (APP)",
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
@@ -15,6 +15,12 @@
             "cwd": "${workspaceFolder}/Bin",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
             "console": "internalConsole",
+            "logging": {
+                "engineLogging": false,
+                "moduleLoad": false,
+                "exceptions": false,
+                "browserStdOut": false
+            },
             "stopAtEntry": false
         },
         {
