@@ -1,14 +1,13 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.2",
-    "signature": "ec024306c1ad81b03f22925e58a1b5d9a2d71109"
+    "signature": "bc87b8bbc173a6c28bd565a0744f25c89b683a5e"
   },
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v2.2": {
       "App/1.0.0": {
         "dependencies": {
-          "CommandLineParser.Core": "1.0.1",
           "ET.Core": "1.0.0",
           "NLog": "4.5.4"
         },
@@ -36,14 +35,6 @@
           "lib/netstandard1.5/CommandLine.dll": {
             "assemblyVersion": "2.0.275.0",
             "fileVersion": "2.0.275.0"
-          }
-        }
-      },
-      "CommandLineParser.Core/1.0.1": {
-        "runtime": {
-          "lib/netstandard2.0/CommandLineParser.Core.dll": {
-            "assemblyVersion": "1.0.1.0",
-            "fileVersion": "1.0.1.0"
           }
         }
       },
@@ -1367,13 +1358,6 @@
       "path": "commandlineparser/2.2.1",
       "hashPath": "commandlineparser.2.2.1.nupkg.sha512"
     },
-    "CommandLineParser.Core/1.0.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-eDbN61t7xnMggVWn+B2xo0DwtFIRPU7dWzxOwmyG2jVo9RhkTsnvPPVpxOzyAxVjvQik4+f5FhkDekEGoTe6iQ==",
-      "path": "commandlineparser.core/1.0.1",
-      "hashPath": "commandlineparser.core.1.0.1.nupkg.sha512"
-    },
     "DnsClient/1.0.7": {
       "type": "package",
       "serviceable": true,
@@ -1706,7 +1690,7 @@
     "System.Net.NameResolution/4.3.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-AFYl08R7MrsrEjqpQWTZWBadqXyTzNDaWpMqyxhb0d6sGhV6xMDKueuBXlLL30gz+DIRY6MpdgnHWlCh5wmq9w==",
+      "sha512": "sha512-DPvMSdd32CbEOCTtOpO4nY9UvbP6LJe375F1yEQjy667WT5LEh1Ek2T4DSVw1STR0K3LSawWfBFwoeSG0TXFeA==",
       "path": "system.net.nameresolution/4.3.0",
       "hashPath": "system.net.nameresolution.4.3.0.nupkg.sha512"
     },

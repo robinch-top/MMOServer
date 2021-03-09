@@ -1,37 +1,36 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\App\\Server.App.csproj": {}
+    "E:\\ETRpgLesson\\MMOServer0.1\\Server\\App\\Server.App.csproj": {}
   },
   "projects": {
-    "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\App\\Server.App.csproj": {
+    "E:\\ETRpgLesson\\MMOServer0.1\\Server\\App\\Server.App.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\App\\Server.App.csproj",
+        "projectUniqueName": "E:\\ETRpgLesson\\MMOServer0.1\\Server\\App\\Server.App.csproj",
         "projectName": "App",
-        "projectPath": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\App\\Server.App.csproj",
-        "packagesPath": "C:\\Users\\chenbin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\App\\obj\\",
+        "projectPath": "E:\\ETRpgLesson\\MMOServer0.1\\Server\\App\\Server.App.csproj",
+        "packagesPath": "C:\\Users\\Rman-xvr\\.nuget\\packages\\",
+        "outputPath": "E:\\ETRpgLesson\\MMOServer0.1\\Server\\App\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\chenbin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Rman-xvr\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp2.2": {
+            "targetAlias": "netcoreapp2.2",
             "projectReferences": {
-              "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\ET.Core\\Server.ET.Core.csproj": {
-                "projectPath": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\ET.Core\\Server.ET.Core.csproj"
+              "E:\\ETRpgLesson\\MMOServer0.1\\Server\\ET.Core\\Server.ET.Core.csproj": {
+                "projectPath": "E:\\ETRpgLesson\\MMOServer0.1\\Server\\ET.Core\\Server.ET.Core.csproj"
               }
             }
           }
@@ -44,11 +43,8 @@
       },
       "frameworks": {
         "netcoreapp2.2": {
+          "targetAlias": "netcoreapp2.2",
           "dependencies": {
-            "CommandLineParser.Core": {
-              "target": "Package",
-              "version": "[1.0.1, )"
-            },
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
               "target": "Package",
@@ -68,46 +64,45 @@
         }
       }
     },
-    "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\ET.Core\\Server.ET.Core.csproj": {
+    "E:\\ETRpgLesson\\MMOServer0.1\\Server\\ET.Core\\Server.ET.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\ET.Core\\Server.ET.Core.csproj",
+        "projectUniqueName": "E:\\ETRpgLesson\\MMOServer0.1\\Server\\ET.Core\\Server.ET.Core.csproj",
         "projectName": "ET.Core",
-        "projectPath": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\ET.Core\\Server.ET.Core.csproj",
-        "packagesPath": "C:\\Users\\chenbin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\ET.Core\\obj\\",
+        "projectPath": "E:\\ETRpgLesson\\MMOServer0.1\\Server\\ET.Core\\Server.ET.Core.csproj",
+        "packagesPath": "C:\\Users\\Rman-xvr\\.nuget\\packages\\",
+        "outputPath": "E:\\ETRpgLesson\\MMOServer0.1\\Server\\ET.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\chenbin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Rman-xvr\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp2.2": {
+            "targetAlias": "netcoreapp2.2",
             "projectReferences": {
-              "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\ThirdParty\\Google.Protobuf\\Google.Protobuf.csproj": {
-                "projectPath": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\ThirdParty\\Google.Protobuf\\Google.Protobuf.csproj"
+              "E:\\ETRpgLesson\\MMOServer0.1\\Server\\ThirdParty\\Google.Protobuf\\Google.Protobuf.csproj": {
+                "projectPath": "E:\\ETRpgLesson\\MMOServer0.1\\Server\\ThirdParty\\Google.Protobuf\\Google.Protobuf.csproj"
               },
-              "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\ThirdParty\\KcpLib\\KcpLib.csproj": {
-                "projectPath": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\ThirdParty\\KcpLib\\KcpLib.csproj"
+              "E:\\ETRpgLesson\\MMOServer0.1\\Server\\ThirdParty\\KcpLib\\KcpLib.csproj": {
+                "projectPath": "E:\\ETRpgLesson\\MMOServer0.1\\Server\\ThirdParty\\KcpLib\\KcpLib.csproj"
               },
-              "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Bson\\MongoDB.Bson.csproj": {
-                "projectPath": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Bson\\MongoDB.Bson.csproj"
+              "E:\\ETRpgLesson\\MMOServer0.1\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Bson\\MongoDB.Bson.csproj": {
+                "projectPath": "E:\\ETRpgLesson\\MMOServer0.1\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Bson\\MongoDB.Bson.csproj"
               },
-              "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Driver.Core\\MongoDB.Driver.Core.csproj": {
-                "projectPath": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Driver.Core\\MongoDB.Driver.Core.csproj"
+              "E:\\ETRpgLesson\\MMOServer0.1\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Driver.Core\\MongoDB.Driver.Core.csproj": {
+                "projectPath": "E:\\ETRpgLesson\\MMOServer0.1\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Driver.Core\\MongoDB.Driver.Core.csproj"
               },
-              "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Driver\\MongoDB.Driver.csproj": {
-                "projectPath": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Driver\\MongoDB.Driver.csproj"
+              "E:\\ETRpgLesson\\MMOServer0.1\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Driver\\MongoDB.Driver.csproj": {
+                "projectPath": "E:\\ETRpgLesson\\MMOServer0.1\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Driver\\MongoDB.Driver.csproj"
               }
             }
           }
@@ -120,6 +115,7 @@
       },
       "frameworks": {
         "netcoreapp2.2": {
+          "targetAlias": "netcoreapp2.2",
           "dependencies": {
             "CommandLineParser": {
               "target": "Package",
@@ -152,34 +148,33 @@
         }
       }
     },
-    "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\ThirdParty\\Google.Protobuf\\Google.Protobuf.csproj": {
+    "E:\\ETRpgLesson\\MMOServer0.1\\Server\\ThirdParty\\Google.Protobuf\\Google.Protobuf.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\ThirdParty\\Google.Protobuf\\Google.Protobuf.csproj",
+        "projectUniqueName": "E:\\ETRpgLesson\\MMOServer0.1\\Server\\ThirdParty\\Google.Protobuf\\Google.Protobuf.csproj",
         "projectName": "Google.Protobuf",
-        "projectPath": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\ThirdParty\\Google.Protobuf\\Google.Protobuf.csproj",
-        "packagesPath": "C:\\Users\\chenbin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\ThirdParty\\Google.Protobuf\\obj\\",
+        "projectPath": "E:\\ETRpgLesson\\MMOServer0.1\\Server\\ThirdParty\\Google.Protobuf\\Google.Protobuf.csproj",
+        "packagesPath": "C:\\Users\\Rman-xvr\\.nuget\\packages\\",
+        "outputPath": "E:\\ETRpgLesson\\MMOServer0.1\\Server\\ThirdParty\\Google.Protobuf\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\chenbin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Rman-xvr\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp2.2": {
+            "targetAlias": "netcoreapp2.2",
             "projectReferences": {
-              "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Bson\\MongoDB.Bson.csproj": {
-                "projectPath": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Bson\\MongoDB.Bson.csproj"
+              "E:\\ETRpgLesson\\MMOServer0.1\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Bson\\MongoDB.Bson.csproj": {
+                "projectPath": "E:\\ETRpgLesson\\MMOServer0.1\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Bson\\MongoDB.Bson.csproj"
               }
             }
           }
@@ -192,6 +187,7 @@
       },
       "frameworks": {
         "netcoreapp2.2": {
+          "targetAlias": "netcoreapp2.2",
           "dependencies": {
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
@@ -208,31 +204,30 @@
         }
       }
     },
-    "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\ThirdParty\\KcpLib\\KcpLib.csproj": {
+    "E:\\ETRpgLesson\\MMOServer0.1\\Server\\ThirdParty\\KcpLib\\KcpLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\ThirdParty\\KcpLib\\KcpLib.csproj",
+        "projectUniqueName": "E:\\ETRpgLesson\\MMOServer0.1\\Server\\ThirdParty\\KcpLib\\KcpLib.csproj",
         "projectName": "KcpLib",
-        "projectPath": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\ThirdParty\\KcpLib\\KcpLib.csproj",
-        "packagesPath": "C:\\Users\\chenbin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\ThirdParty\\KcpLib\\obj\\",
+        "projectPath": "E:\\ETRpgLesson\\MMOServer0.1\\Server\\ThirdParty\\KcpLib\\KcpLib.csproj",
+        "packagesPath": "C:\\Users\\Rman-xvr\\.nuget\\packages\\",
+        "outputPath": "E:\\ETRpgLesson\\MMOServer0.1\\Server\\ThirdParty\\KcpLib\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\chenbin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Rman-xvr\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp2.2": {
+            "targetAlias": "netcoreapp2.2",
             "projectReferences": {}
           }
         },
@@ -244,6 +239,7 @@
       },
       "frameworks": {
         "netcoreapp2.2": {
+          "targetAlias": "netcoreapp2.2",
           "dependencies": {
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
@@ -260,31 +256,30 @@
         }
       }
     },
-    "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Bson\\MongoDB.Bson.csproj": {
+    "E:\\ETRpgLesson\\MMOServer0.1\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Bson\\MongoDB.Bson.csproj": {
       "version": "0.0.0-local",
       "restore": {
-        "projectUniqueName": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Bson\\MongoDB.Bson.csproj",
+        "projectUniqueName": "E:\\ETRpgLesson\\MMOServer0.1\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Bson\\MongoDB.Bson.csproj",
         "projectName": "MongoDB.Bson",
-        "projectPath": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Bson\\MongoDB.Bson.csproj",
-        "packagesPath": "C:\\Users\\chenbin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Bson\\obj\\",
+        "projectPath": "E:\\ETRpgLesson\\MMOServer0.1\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Bson\\MongoDB.Bson.csproj",
+        "packagesPath": "C:\\Users\\Rman-xvr\\.nuget\\packages\\",
+        "outputPath": "E:\\ETRpgLesson\\MMOServer0.1\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Bson\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\chenbin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Rman-xvr\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp2.2": {
+            "targetAlias": "netcoreapp2.2",
             "projectReferences": {}
           }
         },
@@ -294,6 +289,7 @@
       },
       "frameworks": {
         "netcoreapp2.2": {
+          "targetAlias": "netcoreapp2.2",
           "dependencies": {
             "Microsoft.CodeAnalysis.FxCopAnalyzers": {
               "suppressParent": "All",
@@ -315,34 +311,33 @@
         }
       }
     },
-    "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Driver.Core\\MongoDB.Driver.Core.csproj": {
+    "E:\\ETRpgLesson\\MMOServer0.1\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Driver.Core\\MongoDB.Driver.Core.csproj": {
       "version": "0.0.0-local",
       "restore": {
-        "projectUniqueName": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Driver.Core\\MongoDB.Driver.Core.csproj",
+        "projectUniqueName": "E:\\ETRpgLesson\\MMOServer0.1\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Driver.Core\\MongoDB.Driver.Core.csproj",
         "projectName": "MongoDB.Driver.Core",
-        "projectPath": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Driver.Core\\MongoDB.Driver.Core.csproj",
-        "packagesPath": "C:\\Users\\chenbin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Driver.Core\\obj\\",
+        "projectPath": "E:\\ETRpgLesson\\MMOServer0.1\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Driver.Core\\MongoDB.Driver.Core.csproj",
+        "packagesPath": "C:\\Users\\Rman-xvr\\.nuget\\packages\\",
+        "outputPath": "E:\\ETRpgLesson\\MMOServer0.1\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Driver.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\chenbin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Rman-xvr\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp2.2": {
+            "targetAlias": "netcoreapp2.2",
             "projectReferences": {
-              "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Bson\\MongoDB.Bson.csproj": {
-                "projectPath": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Bson\\MongoDB.Bson.csproj"
+              "E:\\ETRpgLesson\\MMOServer0.1\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Bson\\MongoDB.Bson.csproj": {
+                "projectPath": "E:\\ETRpgLesson\\MMOServer0.1\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Bson\\MongoDB.Bson.csproj"
               }
             }
           }
@@ -353,6 +348,7 @@
       },
       "frameworks": {
         "netcoreapp2.2": {
+          "targetAlias": "netcoreapp2.2",
           "dependencies": {
             "DnsClient": {
               "target": "Package",
@@ -378,37 +374,36 @@
         }
       }
     },
-    "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Driver\\MongoDB.Driver.csproj": {
+    "E:\\ETRpgLesson\\MMOServer0.1\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Driver\\MongoDB.Driver.csproj": {
       "version": "0.0.0-local",
       "restore": {
-        "projectUniqueName": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Driver\\MongoDB.Driver.csproj",
+        "projectUniqueName": "E:\\ETRpgLesson\\MMOServer0.1\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Driver\\MongoDB.Driver.csproj",
         "projectName": "MongoDB.Driver",
-        "projectPath": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Driver\\MongoDB.Driver.csproj",
-        "packagesPath": "C:\\Users\\chenbin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Driver\\obj\\",
+        "projectPath": "E:\\ETRpgLesson\\MMOServer0.1\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Driver\\MongoDB.Driver.csproj",
+        "packagesPath": "C:\\Users\\Rman-xvr\\.nuget\\packages\\",
+        "outputPath": "E:\\ETRpgLesson\\MMOServer0.1\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Driver\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\chenbin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Rman-xvr\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp2.2": {
+            "targetAlias": "netcoreapp2.2",
             "projectReferences": {
-              "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Bson\\MongoDB.Bson.csproj": {
-                "projectPath": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Bson\\MongoDB.Bson.csproj"
+              "E:\\ETRpgLesson\\MMOServer0.1\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Bson\\MongoDB.Bson.csproj": {
+                "projectPath": "E:\\ETRpgLesson\\MMOServer0.1\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Bson\\MongoDB.Bson.csproj"
               },
-              "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Driver.Core\\MongoDB.Driver.Core.csproj": {
-                "projectPath": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Driver.Core\\MongoDB.Driver.Core.csproj"
+              "E:\\ETRpgLesson\\MMOServer0.1\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Driver.Core\\MongoDB.Driver.Core.csproj": {
+                "projectPath": "E:\\ETRpgLesson\\MMOServer0.1\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Driver.Core\\MongoDB.Driver.Core.csproj"
               }
             }
           }
@@ -419,6 +414,7 @@
       },
       "frameworks": {
         "netcoreapp2.2": {
+          "targetAlias": "netcoreapp2.2",
           "dependencies": {
             "Microsoft.CodeAnalysis.FxCopAnalyzers": {
               "suppressParent": "All",

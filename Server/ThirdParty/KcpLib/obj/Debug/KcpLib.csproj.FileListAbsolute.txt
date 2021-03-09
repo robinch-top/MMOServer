@@ -9,13 +9,3 @@ E:\ETRpgLesson\MMOServer0.1\Server\ThirdParty\KcpLib\obj\Debug\KcpLib.AssemblyIn
 E:\ETRpgLesson\MMOServer0.1\Server\ThirdParty\KcpLib\obj\Debug\KcpLib.dll
 E:\ETRpgLesson\MMOServer0.1\Server\ThirdParty\KcpLib\obj\Debug\KcpLib.pdb
 E:\ETRpgLesson\MMOServer0.1\Server\ThirdParty\KcpLib\obj\Debug\KcpLib.csprojAssemblyReference.cache
-C:\Users\chenbin\Desktop\myDemo\unity_project\MMOServer\Bin\libkcp.dylib
-C:\Users\chenbin\Desktop\myDemo\unity_project\MMOServer\Bin\libkcp.so
-C:\Users\chenbin\Desktop\myDemo\unity_project\MMOServer\Bin\KcpLib.deps.json
-C:\Users\chenbin\Desktop\myDemo\unity_project\MMOServer\Bin\KcpLib.dll
-C:\Users\chenbin\Desktop\myDemo\unity_project\MMOServer\Bin\KcpLib.pdb
-C:\Users\chenbin\Desktop\myDemo\unity_project\MMOServer\Server\ThirdParty\KcpLib\obj\Debug\KcpLib.csproj.CoreCompileInputs.cache
-C:\Users\chenbin\Desktop\myDemo\unity_project\MMOServer\Server\ThirdParty\KcpLib\obj\Debug\KcpLib.AssemblyInfoInputs.cache
-C:\Users\chenbin\Desktop\myDemo\unity_project\MMOServer\Server\ThirdParty\KcpLib\obj\Debug\KcpLib.AssemblyInfo.cs
-C:\Users\chenbin\Desktop\myDemo\unity_project\MMOServer\Server\ThirdParty\KcpLib\obj\Debug\KcpLib.dll
-C:\Users\chenbin\Desktop\myDemo\unity_project\MMOServer\Server\ThirdParty\KcpLib\obj\Debug\KcpLib.pdb

@@ -2862,9 +2862,3 @@ File name: 'E:\ETRpgLesson\MMOServer0.1\Bin\Hotfix.dll'
 2020-12-16 18:23:49.5000 AllServer 0001 (SessionUserComponentSystem.cs:14) 销毁User和Session101607681516
 2020-12-16 18:23:49.5308 AllServer 0001 (Session.cs:142) { "_t" : "PlayerOffline_G2R", "RpcId" : 0, "UserID" : NumberLong("101607681516") }
 2020-12-16 18:23:49.5308 AllServer 0001 (PlayerOffline.cs:13) 玩家101607681516下线
-2021-03-08 18:58:31.4211 AllServer 0001 (Program.cs:37) server start........................ 1 AllServer
-2021-03-08 18:58:31.8644 AllServer 0001 (DBProxyComponentSystem.cs:31) 127.0.0.1:20002
-2021-03-08 18:59:37.8168 AllServer 0001 (Program.cs:37) server start........................ 1 AllServer
-2021-03-08 18:59:38.0190 AllServer 0001 (DBProxyComponentSystem.cs:31) 127.0.0.1:20002
-2021-03-09 10:29:12.1237 AllServer 0001 (Program.cs:37) server start........................ 1 AllServer
-2021-03-09 10:29:12.3406 AllServer 0001 (DBProxyComponentSystem.cs:31) 127.0.0.1:20002

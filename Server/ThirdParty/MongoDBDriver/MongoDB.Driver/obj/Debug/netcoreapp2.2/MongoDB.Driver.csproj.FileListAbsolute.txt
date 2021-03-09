@@ -10,15 +10,3 @@ E:\ETRpgLesson\MMOServer0.1\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\obj\D
 E:\ETRpgLesson\MMOServer0.1\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\obj\Debug\netcoreapp2.2\MongoDB.Driver.dll
 E:\ETRpgLesson\MMOServer0.1\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\obj\Debug\netcoreapp2.2\MongoDB.Driver.xml
 E:\ETRpgLesson\MMOServer0.1\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\obj\Debug\netcoreapp2.2\MongoDB.Driver.pdb
-C:\Users\chenbin\Desktop\myDemo\unity_project\MMOServer\Bin\netcoreapp2.2\MongoDB.Driver.deps.json
-C:\Users\chenbin\Desktop\myDemo\unity_project\MMOServer\Bin\netcoreapp2.2\MongoDB.Driver.dll
-C:\Users\chenbin\Desktop\myDemo\unity_project\MMOServer\Bin\netcoreapp2.2\MongoDB.Driver.pdb
-C:\Users\chenbin\Desktop\myDemo\unity_project\MMOServer\Bin\netcoreapp2.2\MongoDB.Driver.xml
-C:\Users\chenbin\Desktop\myDemo\unity_project\MMOServer\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\obj\Debug\netcoreapp2.2\MongoDB.Driver.csprojAssemblyReference.cache
-C:\Users\chenbin\Desktop\myDemo\unity_project\MMOServer\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\obj\Debug\netcoreapp2.2\MongoDB.Driver.csproj.CoreCompileInputs.cache
-C:\Users\chenbin\Desktop\myDemo\unity_project\MMOServer\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\obj\Debug\netcoreapp2.2\MongoDB.Driver.AssemblyInfoInputs.cache
-C:\Users\chenbin\Desktop\myDemo\unity_project\MMOServer\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\obj\Debug\netcoreapp2.2\MongoDB.Driver.AssemblyInfo.cs
-C:\Users\chenbin\Desktop\myDemo\unity_project\MMOServer\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\obj\Debug\netcoreapp2.2\MongoDB.Driver.csproj.CopyComplete
-C:\Users\chenbin\Desktop\myDemo\unity_project\MMOServer\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\obj\Debug\netcoreapp2.2\MongoDB.Driver.dll
-C:\Users\chenbin\Desktop\myDemo\unity_project\MMOServer\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\obj\Debug\netcoreapp2.2\MongoDB.Driver.xml
-C:\Users\chenbin\Desktop\myDemo\unity_project\MMOServer\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\obj\Debug\netcoreapp2.2\MongoDB.Driver.pdb
