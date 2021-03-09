@@ -26,6 +26,15 @@
           "lib/netstandard1.5/CommandLine.dll": {}
         }
       },
+      "CommandLineParser.Core/1.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/CommandLineParser.Core.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/CommandLineParser.Core.dll": {}
+        }
+      },
       "DnsClient/1.0.7": {
         "type": "package",
         "dependencies": {
@@ -2087,6 +2096,18 @@
         "lib/netstandard1.5/CommandLine.dll",
         "lib/netstandard1.5/CommandLine.xml",
         "readme.md"
+      ]
+    },
+    "CommandLineParser.Core/1.0.1": {
+      "sha512": "eDbN61t7xnMggVWn+B2xo0DwtFIRPU7dWzxOwmyG2jVo9RhkTsnvPPVpxOzyAxVjvQik4+f5FhkDekEGoTe6iQ==",
+      "type": "package",
+      "path": "commandlineparser.core/1.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "commandlineparser.core.1.0.1.nupkg.sha512",
+        "commandlineparser.core.nuspec",
+        "lib/netstandard2.0/CommandLineParser.Core.dll"
       ]
     },
     "DnsClient/1.0.7": {
@@ -6570,6 +6591,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
+      "CommandLineParser.Core >= 1.0.1",
       "ET.Core >= 1.0.0",
       "Microsoft.NETCore.App >= 2.2.0",
       "NLog >= 4.5.4"
@@ -6620,6 +6642,10 @@
     "frameworks": {
       "netcoreapp2.2": {
         "dependencies": {
+          "CommandLineParser.Core": {
+            "target": "Package",
+            "version": "[1.0.1, )"
+          },
           "Microsoft.NETCore.App": {
             "suppressParent": "All",
             "target": "Package",

@@ -24,9 +24,9 @@ C:\Users\chenbin\Desktop\myDemo\unity_project\MMOServer\Bin\App.runtimeconfig.de
 C:\Users\chenbin\Desktop\myDemo\unity_project\MMOServer\Bin\App.dll
 C:\Users\chenbin\Desktop\myDemo\unity_project\MMOServer\Bin\App.pdb
 C:\Users\chenbin\Desktop\myDemo\unity_project\MMOServer\Server\App\obj\Debug\Server.App.csprojAssemblyReference.cache
-C:\Users\chenbin\Desktop\myDemo\unity_project\MMOServer\Server\App\obj\Debug\Server.App.csproj.CoreCompileInputs.cache
 C:\Users\chenbin\Desktop\myDemo\unity_project\MMOServer\Server\App\obj\Debug\Server.App.AssemblyInfoInputs.cache
 C:\Users\chenbin\Desktop\myDemo\unity_project\MMOServer\Server\App\obj\Debug\Server.App.AssemblyInfo.cs
 C:\Users\chenbin\Desktop\myDemo\unity_project\MMOServer\Server\App\obj\Debug\Server.App.csproj.CopyComplete
 C:\Users\chenbin\Desktop\myDemo\unity_project\MMOServer\Server\App\obj\Debug\App.dll
 C:\Users\chenbin\Desktop\myDemo\unity_project\MMOServer\Server\App\obj\Debug\App.pdb
+C:\Users\chenbin\Desktop\myDemo\unity_project\MMOServer\Server\App\obj\Debug\Server.App.csproj.CoreCompileInputs.cache

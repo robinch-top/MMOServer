@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "+sfA1hF5l5blIfcNl5app+gpsW0thjN4seEetCpaWkzmxiVJG4UeRQWTx7koJAaVQkFydakSziv/iFlYQSVMAA==",
+  "dgSpecHash": "b64m5F4VC97u8eNPegJcvi16jVrGt/J0aKjONW/Z2xeBzKwRO+wCi0ag3E+LOAZFTNZ/SXF+/9f4+Jr9hby2+g==",
   "success": true,
   "projectFilePath": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\App\\Server.App.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\chenbin\\.nuget\\packages\\commandlineparser\\2.2.1\\commandlineparser.2.2.1.nupkg.sha512",
+    "C:\\Users\\chenbin\\.nuget\\packages\\commandlineparser.core\\1.0.1\\commandlineparser.core.1.0.1.nupkg.sha512",
     "C:\\Users\\chenbin\\.nuget\\packages\\dnsclient\\1.0.7\\dnsclient.1.0.7.nupkg.sha512",
     "C:\\Users\\chenbin\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\2.6.1\\microsoft.codeanalysis.analyzers.2.6.1.nupkg.sha512",
     "C:\\Users\\chenbin\\.nuget\\packages\\microsoft.codeanalysis.common\\2.9.0\\microsoft.codeanalysis.common.2.9.0.nupkg.sha512",
