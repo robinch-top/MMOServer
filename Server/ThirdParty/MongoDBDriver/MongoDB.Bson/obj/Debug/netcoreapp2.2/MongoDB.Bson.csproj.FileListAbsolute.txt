@@ -9,3 +9,14 @@ E:\ETRpgLesson\MMOServer0.1\Server\ThirdParty\MongoDBDriver\MongoDB.Bson\obj\Deb
 E:\ETRpgLesson\MMOServer0.1\Server\ThirdParty\MongoDBDriver\MongoDB.Bson\obj\Debug\netcoreapp2.2\MongoDB.Bson.xml
 E:\ETRpgLesson\MMOServer0.1\Server\ThirdParty\MongoDBDriver\MongoDB.Bson\obj\Debug\netcoreapp2.2\MongoDB.Bson.pdb
 E:\ETRpgLesson\MMOServer0.1\Server\ThirdParty\MongoDBDriver\MongoDB.Bson\obj\Debug\netcoreapp2.2\MongoDB.Bson.csprojAssemblyReference.cache
+C:\Users\chenbin\Desktop\myDemo\unity_project\MMOServer\Bin\netcoreapp2.2\MongoDB.Bson.deps.json
+C:\Users\chenbin\Desktop\myDemo\unity_project\MMOServer\Bin\netcoreapp2.2\MongoDB.Bson.dll
+C:\Users\chenbin\Desktop\myDemo\unity_project\MMOServer\Bin\netcoreapp2.2\MongoDB.Bson.pdb
+C:\Users\chenbin\Desktop\myDemo\unity_project\MMOServer\Bin\netcoreapp2.2\MongoDB.Bson.xml
+C:\Users\chenbin\Desktop\myDemo\unity_project\MMOServer\Server\ThirdParty\MongoDBDriver\MongoDB.Bson\obj\Debug\netcoreapp2.2\MongoDB.Bson.csprojAssemblyReference.cache
+C:\Users\chenbin\Desktop\myDemo\unity_project\MMOServer\Server\ThirdParty\MongoDBDriver\MongoDB.Bson\obj\Debug\netcoreapp2.2\MongoDB.Bson.csproj.CoreCompileInputs.cache
+C:\Users\chenbin\Desktop\myDemo\unity_project\MMOServer\Server\ThirdParty\MongoDBDriver\MongoDB.Bson\obj\Debug\netcoreapp2.2\MongoDB.Bson.AssemblyInfoInputs.cache
+C:\Users\chenbin\Desktop\myDemo\unity_project\MMOServer\Server\ThirdParty\MongoDBDriver\MongoDB.Bson\obj\Debug\netcoreapp2.2\MongoDB.Bson.AssemblyInfo.cs
+C:\Users\chenbin\Desktop\myDemo\unity_project\MMOServer\Server\ThirdParty\MongoDBDriver\MongoDB.Bson\obj\Debug\netcoreapp2.2\MongoDB.Bson.dll
+C:\Users\chenbin\Desktop\myDemo\unity_project\MMOServer\Server\ThirdParty\MongoDBDriver\MongoDB.Bson\obj\Debug\netcoreapp2.2\MongoDB.Bson.xml
+C:\Users\chenbin\Desktop\myDemo\unity_project\MMOServer\Server\ThirdParty\MongoDBDriver\MongoDB.Bson\obj\Debug\netcoreapp2.2\MongoDB.Bson.pdb

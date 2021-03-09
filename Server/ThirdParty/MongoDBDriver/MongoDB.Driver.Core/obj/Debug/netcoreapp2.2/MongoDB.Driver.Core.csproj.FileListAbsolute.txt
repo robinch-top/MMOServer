@@ -10,3 +10,15 @@ E:\ETRpgLesson\MMOServer0.1\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\
 E:\ETRpgLesson\MMOServer0.1\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\obj\Debug\netcoreapp2.2\MongoDB.Driver.Core.dll
 E:\ETRpgLesson\MMOServer0.1\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\obj\Debug\netcoreapp2.2\MongoDB.Driver.Core.xml
 E:\ETRpgLesson\MMOServer0.1\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\obj\Debug\netcoreapp2.2\MongoDB.Driver.Core.pdb
+C:\Users\chenbin\Desktop\myDemo\unity_project\MMOServer\Bin\netcoreapp2.2\MongoDB.Driver.Core.deps.json
+C:\Users\chenbin\Desktop\myDemo\unity_project\MMOServer\Bin\netcoreapp2.2\MongoDB.Driver.Core.dll
+C:\Users\chenbin\Desktop\myDemo\unity_project\MMOServer\Bin\netcoreapp2.2\MongoDB.Driver.Core.pdb
+C:\Users\chenbin\Desktop\myDemo\unity_project\MMOServer\Bin\netcoreapp2.2\MongoDB.Driver.Core.xml
+C:\Users\chenbin\Desktop\myDemo\unity_project\MMOServer\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\obj\Debug\netcoreapp2.2\MongoDB.Driver.Core.csprojAssemblyReference.cache
+C:\Users\chenbin\Desktop\myDemo\unity_project\MMOServer\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\obj\Debug\netcoreapp2.2\MongoDB.Driver.Core.csproj.CoreCompileInputs.cache
+C:\Users\chenbin\Desktop\myDemo\unity_project\MMOServer\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\obj\Debug\netcoreapp2.2\MongoDB.Driver.Core.AssemblyInfoInputs.cache
+C:\Users\chenbin\Desktop\myDemo\unity_project\MMOServer\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\obj\Debug\netcoreapp2.2\MongoDB.Driver.Core.AssemblyInfo.cs
+C:\Users\chenbin\Desktop\myDemo\unity_project\MMOServer\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\obj\Debug\netcoreapp2.2\MongoDB.Driver.Core.csproj.CopyComplete
+C:\Users\chenbin\Desktop\myDemo\unity_project\MMOServer\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\obj\Debug\netcoreapp2.2\MongoDB.Driver.Core.dll
+C:\Users\chenbin\Desktop\myDemo\unity_project\MMOServer\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\obj\Debug\netcoreapp2.2\MongoDB.Driver.Core.xml
+C:\Users\chenbin\Desktop\myDemo\unity_project\MMOServer\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\obj\Debug\netcoreapp2.2\MongoDB.Driver.Core.pdb

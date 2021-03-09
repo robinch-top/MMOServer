@@ -1,33 +1,34 @@
 {
   "format": 1,
   "restore": {
-    "E:\\ETRpgLesson\\MMOServer0.1\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Bson\\MongoDB.Bson.csproj": {}
+    "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Bson\\MongoDB.Bson.csproj": {}
   },
   "projects": {
-    "E:\\ETRpgLesson\\MMOServer0.1\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Bson\\MongoDB.Bson.csproj": {
+    "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Bson\\MongoDB.Bson.csproj": {
       "version": "0.0.0-local",
       "restore": {
-        "projectUniqueName": "E:\\ETRpgLesson\\MMOServer0.1\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Bson\\MongoDB.Bson.csproj",
+        "projectUniqueName": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Bson\\MongoDB.Bson.csproj",
         "projectName": "MongoDB.Bson",
-        "projectPath": "E:\\ETRpgLesson\\MMOServer0.1\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Bson\\MongoDB.Bson.csproj",
-        "packagesPath": "C:\\Users\\Rman-xvr\\.nuget\\packages\\",
-        "outputPath": "E:\\ETRpgLesson\\MMOServer0.1\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Bson\\obj\\",
+        "projectPath": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Bson\\MongoDB.Bson.csproj",
+        "packagesPath": "C:\\Users\\chenbin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\chenbin\\Desktop\\myDemo\\unity_project\\MMOServer\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Bson\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Rman-xvr\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\chenbin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp2.2": {
-            "targetAlias": "netcoreapp2.2",
             "projectReferences": {}
           }
         },
@@ -37,7 +38,6 @@
       },
       "frameworks": {
         "netcoreapp2.2": {
-          "targetAlias": "netcoreapp2.2",
           "dependencies": {
             "Microsoft.CodeAnalysis.FxCopAnalyzers": {
               "suppressParent": "All",
