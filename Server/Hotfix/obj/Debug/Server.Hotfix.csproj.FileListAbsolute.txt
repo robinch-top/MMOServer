@@ -1,0 +1,12 @@
+E:\ETRpgLesson\MMOServer0.1\Bin\libkcp.dylib
+E:\ETRpgLesson\MMOServer0.1\Bin\libkcp.so
+E:\ETRpgLesson\MMOServer0.1\Bin\Hotfix.deps.json
+E:\ETRpgLesson\MMOServer0.1\Bin\Hotfix.dll
+E:\ETRpgLesson\MMOServer0.1\Bin\Hotfix.pdb
+E:\ETRpgLesson\MMOServer0.1\Server\Hotfix\obj\Debug\Server.Hotfix.csprojAssemblyReference.cache
+E:\ETRpgLesson\MMOServer0.1\Server\Hotfix\obj\Debug\Server.Hotfix.csproj.CoreCompileInputs.cache
+E:\ETRpgLesson\MMOServer0.1\Server\Hotfix\obj\Debug\Server.Hotfix.AssemblyInfoInputs.cache
+E:\ETRpgLesson\MMOServer0.1\Server\Hotfix\obj\Debug\Server.Hotfix.AssemblyInfo.cs
+E:\ETRpgLesson\MMOServer0.1\Server\Hotfix\obj\Debug\Server.Hotfix.csproj.CopyComplete
+E:\ETRpgLesson\MMOServer0.1\Server\Hotfix\obj\Debug\Hotfix.dll
+E:\ETRpgLesson\MMOServer0.1\Server\Hotfix\obj\Debug\Hotfix.pdb

@@ -1,0 +1,138 @@
+2020-12-11 16:30:02.0372 AllServer 0001 (Session.cs:142) { "_t" : "Register_C2R", "RpcId" : 1, "Account" : "rman", "Password" : "111", "Partition" : 0 }
+2020-12-11 16:35:58.4306 AllServer 0001 (Session.cs:142) { "_t" : "Register_C2R", "RpcId" : 2, "Account" : "rman", "Password" : "111", "Partition" : 0 }
+2020-12-11 16:40:23.3687 AllServer 0001 (Session.cs:142) { "_t" : "Register_C2R", "RpcId" : 3, "Account" : "rman", "Password" : "111", "Partition" : 0 }
+2020-12-11 17:23:03.8365 AllServer 0001 (Session.cs:142) { "_t" : "Register_C2R", "RpcId" : 4, "Account" : "rman", "Password" : "111", "Partition" : 0 }
+2020-12-11 18:11:55.0499 AllServer 0001 (Session.cs:142) { "_t" : "Register_C2R", "RpcId" : 5, "Account" : "rman", "Password" : "111", "Partition" : 0 }
+2020-12-11 18:11:55.1025 AllServer 0001 (Session.cs:142) { "_t" : "DBQueryJsonRequest", "RpcId" : 1, "CollectionName" : "AccountInfo", "Json" : "{Account:'rman'}" }
+2020-12-11 18:11:55.3207 AllServer 0001 (Session.cs:142) { "_t" : "DBQueryJsonResponse", "Components" : [], "RpcId" : 1, "Error" : 0, "Message" : null }
+2020-12-11 18:11:55.3392 AllServer 0001 (Session.cs:142) { "_t" : "DBSaveRequest", "RpcId" : 2, "NeedCache" : true, "CollectionName" : null, "Component" : { "_t" : "AccountInfo", "_id" : NumberLong("101607681516"), "C" : [], "Account" : "rman", "Password" : "111" } }
+2020-12-11 18:11:55.7413 AllServer 0001 (Session.cs:142) { "_t" : "DBSaveResponse", "RpcId" : 2, "Error" : 0, "Message" : null }
+2020-12-11 18:11:55.7589 AllServer 0001 (Session.cs:142) { "_t" : "DBSaveRequest", "RpcId" : 3, "NeedCache" : true, "CollectionName" : null, "Component" : { "_t" : "UserInfo", "_id" : NumberLong("101607681516"), "C" : [], "UserName" : "rman", "Phone" : NumberLong(0), "Email" : "", "Sex" : "", "Title" : "", "LastPlay" : 0 } }
+2020-12-11 18:11:55.9135 AllServer 0001 (Session.cs:142) { "_t" : "DBSaveResponse", "RpcId" : 3, "Error" : 0, "Message" : null }
+2020-12-11 18:13:26.0596 AllServer 0001 (Session.cs:142) { "_t" : "Register_C2R", "RpcId" : 7, "Account" : "rman", "Password" : "111", "Partition" : 0 }
+2020-12-11 18:13:26.0953 AllServer 0001 (Session.cs:142) { "_t" : "DBQueryJsonRequest", "RpcId" : 1, "CollectionName" : "AccountInfo", "Json" : "{Account:'rman'}" }
+2020-12-11 18:13:26.2679 AllServer 0001 (Session.cs:142) { "_t" : "DBQueryJsonResponse", "Components" : [{ "_t" : "AccountInfo", "_id" : NumberLong("101607681516"), "C" : [], "Account" : "rman", "Password" : "111" }], "RpcId" : 1, "Error" : 0, "Message" : null }
+2020-12-11 18:22:41.9710 AllServer 0001 (Session.cs:142) { "_t" : "Register_C2R", "RpcId" : 1, "Account" : "rman2", "Password" : "111", "Partition" : 0 }
+2020-12-11 18:22:41.9710 AllServer 0001 (Session.cs:142) { "_t" : "DBQueryJsonRequest", "RpcId" : 2, "CollectionName" : "AccountInfo", "Json" : "{Account:'rman2'}" }
+2020-12-11 18:22:42.0182 AllServer 0001 (Session.cs:142) { "_t" : "DBQueryJsonResponse", "Components" : [], "RpcId" : 2, "Error" : 0, "Message" : null }
+2020-12-11 18:22:42.0375 AllServer 0001 (Session.cs:142) { "_t" : "DBSaveRequest", "RpcId" : 3, "NeedCache" : true, "CollectionName" : null, "Component" : { "_t" : "AccountInfo", "_id" : NumberLong("101607682163"), "C" : [], "Account" : "rman2", "Password" : "111" } }
+2020-12-11 18:22:42.2245 AllServer 0001 (Session.cs:142) { "_t" : "DBSaveResponse", "RpcId" : 3, "Error" : 0, "Message" : null }
+2020-12-11 18:22:42.2421 AllServer 0001 (Session.cs:142) { "_t" : "DBSaveRequest", "RpcId" : 4, "NeedCache" : true, "CollectionName" : null, "Component" : { "_t" : "UserInfo", "_id" : NumberLong("101607682163"), "C" : [], "UserName" : "rman2", "Phone" : NumberLong(0), "Email" : "", "Sex" : "", "Title" : "", "LastPlay" : 0 } }
+2020-12-11 18:22:42.2696 AllServer 0001 (Session.cs:142) { "_t" : "DBSaveResponse", "RpcId" : 4, "Error" : 0, "Message" : null }
+2020-12-11 18:23:47.4299 AllServer 0001 (Session.cs:142) { "_t" : "Login_C2R", "RpcId" : 2, "Account" : "rman2", "Password" : "111" }
+2020-12-11 18:28:20.5669 AllServer 0001 (Session.cs:142) { "_t" : "Login_C2R", "RpcId" : 1, "Account" : "rman2", "Password" : "111" }
+2020-12-11 18:28:20.6027 AllServer 0001 (Session.cs:142) { "_t" : "DBQueryJsonRequest", "RpcId" : 1, "CollectionName" : "AccountInfo", "Json" : "{Account:'rman2',Password:'111'}" }
+2020-12-11 18:28:20.7605 AllServer 0001 (Session.cs:142) { "_t" : "DBQueryJsonResponse", "Components" : [{ "_t" : "AccountInfo", "_id" : NumberLong("101607682163"), "C" : [], "Account" : "rman2", "Password" : "111" }], "RpcId" : 1, "Error" : 0, "Message" : null }
+2020-12-11 18:28:20.7732 AllServer 0001 (Session.cs:142) { "_t" : "GetLoginKey_R2G", "RpcId" : 2, "UserID" : NumberLong("101607682163") }
+2020-12-11 18:28:20.7908 AllServer 0001 (Session.cs:142) { "_t" : "GetLoginKey_G2R", "RpcId" : 2, "Error" : 0, "Message" : null, "GateLoginKey" : NumberLong("7575785059478180668") }
+2020-12-11 18:28:20.8242 AllServer 0001 (Session.cs:142) { "_t" : "LoginGate_C2G", "RpcId" : 2, "GateLoginKey" : NumberLong("7575785059478180668") }
+2020-12-11 18:28:20.8510 AllServer 0001 (Session.cs:142) { "_t" : "PlayerOnline_G2R", "RpcId" : 0, "UserID" : NumberLong("101607682163"), "GateAppID" : 1 }
+2020-12-11 18:31:03.2973 AllServer 0001 (Session.cs:142) { "_t" : "PlayerOffline_G2R", "RpcId" : 0, "UserID" : NumberLong("101607682163") }
+2020-12-11 18:31:15.4840 AllServer 0001 (Session.cs:142) { "_t" : "Login_C2R", "RpcId" : 1, "Account" : "rman2", "Password" : "111" }
+2020-12-11 18:31:15.5000 AllServer 0001 (Session.cs:142) { "_t" : "DBQueryJsonRequest", "RpcId" : 3, "CollectionName" : "AccountInfo", "Json" : "{Account:'rman2',Password:'111'}" }
+2020-12-11 18:31:15.5309 AllServer 0001 (Session.cs:142) { "_t" : "DBQueryJsonResponse", "Components" : [{ "_t" : "AccountInfo", "_id" : NumberLong("101607682163"), "C" : [], "Account" : "rman2", "Password" : "111" }], "RpcId" : 3, "Error" : 0, "Message" : null }
+2020-12-11 18:31:15.5458 AllServer 0001 (Session.cs:142) { "_t" : "GetLoginKey_R2G", "RpcId" : 4, "UserID" : NumberLong("101607682163") }
+2020-12-11 18:31:15.5616 AllServer 0001 (Session.cs:142) { "_t" : "GetLoginKey_G2R", "RpcId" : 4, "Error" : 0, "Message" : null, "GateLoginKey" : NumberLong("-8307026202390927026") }
+2020-12-11 18:31:15.5934 AllServer 0001 (Session.cs:142) { "_t" : "LoginGate_C2G", "RpcId" : 2, "GateLoginKey" : NumberLong("-8307026202390927026") }
+2020-12-11 18:31:15.6095 AllServer 0001 (Session.cs:142) { "_t" : "PlayerOnline_G2R", "RpcId" : 0, "UserID" : NumberLong("101607682163"), "GateAppID" : 1 }
+2020-12-11 19:08:01.7146 AllServer 0001 (Session.cs:142) { "_t" : "PlayerOffline_G2R", "RpcId" : 0, "UserID" : NumberLong("101607682163") }
+2020-12-11 20:01:44.9530 AllServer 0001 (Session.cs:142) { "_t" : "Login_C2R", "RpcId" : 1, "Account" : "rman2", "Password" : "111" }
+2020-12-11 20:01:44.9689 AllServer 0001 (Session.cs:142) { "_t" : "DBQueryJsonRequest", "RpcId" : 5, "CollectionName" : "AccountInfo", "Json" : "{Account:'rman2',Password:'111'}" }
+2020-12-11 20:01:45.0004 AllServer 0001 (Session.cs:142) { "_t" : "DBQueryJsonResponse", "Components" : [{ "_t" : "AccountInfo", "_id" : NumberLong("101607682163"), "C" : [], "Account" : "rman2", "Password" : "111" }], "RpcId" : 5, "Error" : 0, "Message" : null }
+2020-12-11 20:01:45.0159 AllServer 0001 (Session.cs:142) { "_t" : "GetLoginKey_R2G", "RpcId" : 6, "UserID" : NumberLong("101607682163") }
+2020-12-11 20:01:45.0308 AllServer 0001 (Session.cs:142) { "_t" : "GetLoginKey_G2R", "RpcId" : 6, "Error" : 0, "Message" : null, "GateLoginKey" : NumberLong("8357890789767453254") }
+2020-12-11 20:01:45.0630 AllServer 0001 (Session.cs:142) { "_t" : "LoginGate_C2G", "RpcId" : 2, "GateLoginKey" : NumberLong("8357890789767453254") }
+2020-12-11 20:01:45.0787 AllServer 0001 (Session.cs:142) { "_t" : "PlayerOnline_G2R", "RpcId" : 0, "UserID" : NumberLong("101607682163"), "GateAppID" : 1 }
+2020-12-11 20:01:47.6138 AllServer 0001 (Session.cs:142) { "_t" : "Register_C2R", "RpcId" : 0, "Account" : "", "Password" : "", "Partition" : 0 }
+2020-12-11 20:01:47.6138 AllServer 0001 (Session.cs:142) { "_t" : "DBQueryJsonRequest", "RpcId" : 7, "CollectionName" : "AccountInfo", "Json" : "{Account:''}" }
+2020-12-11 20:01:47.6553 AllServer 0001 (Session.cs:142) { "_t" : "DBQueryJsonResponse", "Components" : [], "RpcId" : 7, "Error" : 0, "Message" : null }
+2020-12-11 20:01:47.6762 AllServer 0001 (Session.cs:142) { "_t" : "DBSaveRequest", "RpcId" : 8, "NeedCache" : true, "CollectionName" : null, "Component" : { "_t" : "AccountInfo", "_id" : NumberLong("101607688108"), "C" : [], "Account" : "", "Password" : "" } }
+2020-12-11 20:01:47.9103 AllServer 0001 (Session.cs:142) { "_t" : "DBSaveResponse", "RpcId" : 8, "Error" : 0, "Message" : null }
+2020-12-11 20:01:47.9270 AllServer 0001 (Session.cs:142) { "_t" : "DBSaveRequest", "RpcId" : 9, "NeedCache" : true, "CollectionName" : null, "Component" : { "_t" : "UserInfo", "_id" : NumberLong("101607688108"), "C" : [], "UserName" : "", "Phone" : NumberLong(0), "Email" : "", "Sex" : "", "Title" : "", "LastPlay" : 0 } }
+2020-12-11 20:01:47.9552 AllServer 0001 (Session.cs:142) { "_t" : "DBSaveResponse", "RpcId" : 9, "Error" : 0, "Message" : null }
+2020-12-11 20:04:51.3570 AllServer 0001 (Session.cs:142) { "_t" : "Login_C2R", "RpcId" : 3, "Account" : "rman2", "Password" : "111" }
+2020-12-11 20:04:51.3942 AllServer 0001 (Session.cs:142) { "_t" : "DBQueryJsonRequest", "RpcId" : 1, "CollectionName" : "AccountInfo", "Json" : "{Account:'rman2',Password:'111'}" }
+2020-12-11 20:04:51.5489 AllServer 0001 (Session.cs:142) { "_t" : "DBQueryJsonResponse", "Components" : [{ "_t" : "AccountInfo", "_id" : NumberLong("101607682163"), "C" : [], "Account" : "rman2", "Password" : "111" }], "RpcId" : 1, "Error" : 0, "Message" : null }
+2020-12-11 20:04:51.5616 AllServer 0001 (Session.cs:142) { "_t" : "GetLoginKey_R2G", "RpcId" : 2, "UserID" : NumberLong("101607682163") }
+2020-12-11 20:04:51.5778 AllServer 0001 (Session.cs:142) { "_t" : "GetLoginKey_G2R", "RpcId" : 2, "Error" : 0, "Message" : null, "GateLoginKey" : NumberLong("-637208509799891797") }
+2020-12-11 20:04:51.6245 AllServer 0001 (Session.cs:142) { "_t" : "LoginGate_C2G", "RpcId" : 4, "GateLoginKey" : NumberLong("-637208509799891797") }
+2020-12-11 20:04:51.6553 AllServer 0001 (Session.cs:142) { "_t" : "PlayerOnline_G2R", "RpcId" : 0, "UserID" : NumberLong("101607682163"), "GateAppID" : 1 }
+2020-12-11 20:05:02.3568 AllServer 0001 (Session.cs:142) { "_t" : "Logout_C2R", "RpcId" : 0, "UserID" : NumberLong("101607682163") }
+2020-12-11 20:05:41.5131 AllServer 0001 (Session.cs:142) { "_t" : "Login_C2R", "RpcId" : 5, "Account" : "rman2", "Password" : "111" }
+2020-12-11 20:05:41.5516 AllServer 0001 (Session.cs:142) { "_t" : "DBQueryJsonRequest", "RpcId" : 1, "CollectionName" : "AccountInfo", "Json" : "{Account:'rman2',Password:'111'}" }
+2020-12-11 20:05:41.7096 AllServer 0001 (Session.cs:142) { "_t" : "DBQueryJsonResponse", "Components" : [{ "_t" : "AccountInfo", "_id" : NumberLong("101607682163"), "C" : [], "Account" : "rman2", "Password" : "111" }], "RpcId" : 1, "Error" : 0, "Message" : null }
+2020-12-11 20:05:41.7222 AllServer 0001 (Session.cs:142) { "_t" : "GetLoginKey_R2G", "RpcId" : 2, "UserID" : NumberLong("101607682163") }
+2020-12-11 20:05:41.7388 AllServer 0001 (Session.cs:142) { "_t" : "GetLoginKey_G2R", "RpcId" : 2, "Error" : 0, "Message" : null, "GateLoginKey" : NumberLong("-612974668053131572") }
+2020-12-11 20:05:41.7701 AllServer 0001 (Session.cs:142) { "_t" : "LoginGate_C2G", "RpcId" : 6, "GateLoginKey" : NumberLong("-612974668053131572") }
+2020-12-11 20:05:41.8019 AllServer 0001 (Session.cs:142) { "_t" : "PlayerOnline_G2R", "RpcId" : 0, "UserID" : NumberLong("101607682163"), "GateAppID" : 1 }
+2020-12-11 20:05:44.0702 AllServer 0001 (Session.cs:142) { "_t" : "Logout_C2R", "RpcId" : 0, "UserID" : NumberLong("101607682163") }
+2020-12-11 20:05:44.0864 AllServer 0001 (Session.cs:142) { "_t" : "KickOutPlayer_R2G", "RpcId" : 3, "UserID" : NumberLong("101607682163") }
+2020-12-11 20:05:44.1478 AllServer 0001 (Session.cs:142) { "_t" : "PlayerOffline_G2R", "RpcId" : 0, "UserID" : NumberLong("101607682163") }
+2020-12-11 20:05:44.1478 AllServer 0001 (Session.cs:142) { "_t" : "KickOutPlayer_G2R", "RpcId" : 3, "Error" : 0, "Message" : null }
+2020-12-11 20:09:57.2687 AllServer 0001 (Session.cs:142) { "_t" : "Login_C2R", "RpcId" : 7, "Account" : "rman2", "Password" : "111" }
+2020-12-11 20:09:57.3152 AllServer 0001 (Session.cs:142) { "_t" : "DBQueryJsonRequest", "RpcId" : 1, "CollectionName" : "AccountInfo", "Json" : "{Account:'rman2',Password:'111'}" }
+2020-12-11 20:09:57.4702 AllServer 0001 (Session.cs:142) { "_t" : "DBQueryJsonResponse", "Components" : [{ "_t" : "AccountInfo", "_id" : NumberLong("101607682163"), "C" : [], "Account" : "rman2", "Password" : "111" }], "RpcId" : 1, "Error" : 0, "Message" : null }
+2020-12-11 20:09:57.4839 AllServer 0001 (Session.cs:142) { "_t" : "GetLoginKey_R2G", "RpcId" : 2, "UserID" : NumberLong("101607682163") }
+2020-12-11 20:09:57.5008 AllServer 0001 (Session.cs:142) { "_t" : "GetLoginKey_G2R", "RpcId" : 2, "Error" : 0, "Message" : null, "GateLoginKey" : NumberLong("-5663579750996335164") }
+2020-12-11 20:09:57.5325 AllServer 0001 (Session.cs:142) { "_t" : "LoginGate_C2G", "RpcId" : 8, "GateLoginKey" : NumberLong("-5663579750996335164") }
+2020-12-11 20:09:57.5640 AllServer 0001 (Session.cs:142) { "_t" : "PlayerOnline_G2R", "RpcId" : 0, "UserID" : NumberLong("101607682163"), "GateAppID" : 1 }
+2020-12-11 20:09:59.8423 AllServer 0001 (Session.cs:142) { "_t" : "Logout_C2R", "RpcId" : 0, "UserID" : NumberLong("101607682163") }
+2020-12-11 20:09:59.8559 AllServer 0001 (Session.cs:142) { "_t" : "KickOutPlayer_R2G", "RpcId" : 3, "UserID" : NumberLong("101607682163") }
+2020-12-11 20:09:59.8726 AllServer 0001 (Session.cs:142) { "_t" : "PlayerOffline_G2R", "RpcId" : 0, "UserID" : NumberLong("101607682163") }
+2020-12-11 20:09:59.8825 AllServer 0001 (Session.cs:142) { "_t" : "KickOutPlayer_G2R", "RpcId" : 3, "Error" : 0, "Message" : null }
+2020-12-11 20:10:33.6981 AllServer 0001 (Session.cs:142) { "_t" : "Login_C2R", "RpcId" : 9, "Account" : "rman2", "Password" : "111" }
+2020-12-11 20:10:33.7132 AllServer 0001 (Session.cs:142) { "_t" : "DBQueryJsonRequest", "RpcId" : 4, "CollectionName" : "AccountInfo", "Json" : "{Account:'rman2',Password:'111'}" }
+2020-12-11 20:10:33.7292 AllServer 0001 (Session.cs:142) { "_t" : "DBQueryJsonResponse", "Components" : [{ "_t" : "AccountInfo", "_id" : NumberLong("101607682163"), "C" : [], "Account" : "rman2", "Password" : "111" }], "RpcId" : 4, "Error" : 0, "Message" : null }
+2020-12-11 20:10:33.7451 AllServer 0001 (Session.cs:142) { "_t" : "GetLoginKey_R2G", "RpcId" : 5, "UserID" : NumberLong("101607682163") }
+2020-12-11 20:10:33.7612 AllServer 0001 (Session.cs:142) { "_t" : "GetLoginKey_G2R", "RpcId" : 5, "Error" : 0, "Message" : null, "GateLoginKey" : NumberLong("-4719702905877496741") }
+2020-12-11 20:10:33.7920 AllServer 0001 (Session.cs:142) { "_t" : "LoginGate_C2G", "RpcId" : 10, "GateLoginKey" : NumberLong("-4719702905877496741") }
+2020-12-11 20:10:33.8080 AllServer 0001 (Session.cs:142) { "_t" : "PlayerOnline_G2R", "RpcId" : 0, "UserID" : NumberLong("101607682163"), "GateAppID" : 1 }
+2020-12-11 20:10:39.3548 AllServer 0001 (Session.cs:142) { "_t" : "Logout_C2R", "RpcId" : 0, "UserID" : NumberLong("101607682163") }
+2020-12-11 20:10:39.3698 AllServer 0001 (Session.cs:142) { "_t" : "KickOutPlayer_R2G", "RpcId" : 6, "UserID" : NumberLong("101607682163") }
+2020-12-11 20:10:39.3860 AllServer 0001 (Session.cs:142) { "_t" : "PlayerOffline_G2R", "RpcId" : 0, "UserID" : NumberLong("101607682163") }
+2020-12-11 20:10:39.3860 AllServer 0001 (Session.cs:142) { "_t" : "KickOutPlayer_G2R", "RpcId" : 6, "Error" : 0, "Message" : null }
+2020-12-11 20:10:55.4871 AllServer 0001 (Session.cs:142) { "_t" : "Login_C2R", "RpcId" : 11, "Account" : "rman2", "Password" : "111" }
+2020-12-11 20:10:55.5030 AllServer 0001 (Session.cs:142) { "_t" : "DBQueryJsonRequest", "RpcId" : 7, "CollectionName" : "AccountInfo", "Json" : "{Account:'rman2',Password:'111'}" }
+2020-12-11 20:10:55.5352 AllServer 0001 (Session.cs:142) { "_t" : "DBQueryJsonResponse", "Components" : [{ "_t" : "AccountInfo", "_id" : NumberLong("101607682163"), "C" : [], "Account" : "rman2", "Password" : "111" }], "RpcId" : 7, "Error" : 0, "Message" : null }
+2020-12-11 20:10:55.5500 AllServer 0001 (Session.cs:142) { "_t" : "GetLoginKey_R2G", "RpcId" : 8, "UserID" : NumberLong("101607682163") }
+2020-12-11 20:10:55.5659 AllServer 0001 (Session.cs:142) { "_t" : "GetLoginKey_G2R", "RpcId" : 8, "Error" : 0, "Message" : null, "GateLoginKey" : NumberLong("4031655922556707239") }
+2020-12-11 20:10:55.5976 AllServer 0001 (Session.cs:142) { "_t" : "LoginGate_C2G", "RpcId" : 12, "GateLoginKey" : NumberLong("4031655922556707239") }
+2020-12-11 20:10:55.6136 AllServer 0001 (Session.cs:142) { "_t" : "PlayerOnline_G2R", "RpcId" : 0, "UserID" : NumberLong("101607682163"), "GateAppID" : 1 }
+2020-12-11 21:05:38.3526 AllServer 0001 (Session.cs:142) { "_t" : "Logout_C2R", "RpcId" : 0, "UserID" : NumberLong("101607682163") }
+2020-12-11 21:05:38.3686 AllServer 0001 (Session.cs:142) { "_t" : "KickOutPlayer_R2G", "RpcId" : 9, "UserID" : NumberLong("101607682163") }
+2020-12-11 21:05:38.3839 AllServer 0001 (Session.cs:142) { "_t" : "PlayerOffline_G2R", "RpcId" : 0, "UserID" : NumberLong("101607682163") }
+2020-12-11 21:05:38.3839 AllServer 0001 (Session.cs:142) { "_t" : "KickOutPlayer_G2R", "RpcId" : 9, "Error" : 0, "Message" : null }
+2020-12-11 21:06:23.3494 AllServer 0001 (Session.cs:142) { "_t" : "Register_C2R", "RpcId" : 13, "Account" : "rman2", "Password" : "111", "Partition" : 0 }
+2020-12-11 21:06:23.3632 AllServer 0001 (Session.cs:142) { "_t" : "DBQueryJsonRequest", "RpcId" : 10, "CollectionName" : "AccountInfo", "Json" : "{Account:'rman2'}" }
+2020-12-11 21:06:23.3954 AllServer 0001 (Session.cs:142) { "_t" : "DBQueryJsonResponse", "Components" : [{ "_t" : "AccountInfo", "_id" : NumberLong("101607682163"), "C" : [], "Account" : "rman2", "Password" : "111" }], "RpcId" : 10, "Error" : 0, "Message" : null }
+2020-12-11 21:06:41.2787 AllServer 0001 (Session.cs:142) { "_t" : "Register_C2R", "RpcId" : 14, "Account" : "rman3", "Password" : "111", "Partition" : 0 }
+2020-12-11 21:06:41.2946 AllServer 0001 (Session.cs:142) { "_t" : "DBQueryJsonRequest", "RpcId" : 11, "CollectionName" : "AccountInfo", "Json" : "{Account:'rman3'}" }
+2020-12-11 21:06:41.3266 AllServer 0001 (Session.cs:142) { "_t" : "DBQueryJsonResponse", "Components" : [], "RpcId" : 11, "Error" : 0, "Message" : null }
+2020-12-11 21:06:41.3441 AllServer 0001 (Session.cs:142) { "_t" : "DBSaveRequest", "RpcId" : 12, "NeedCache" : true, "CollectionName" : null, "Component" : { "_t" : "AccountInfo", "_id" : NumberLong("101607692002"), "C" : [], "Account" : "rman3", "Password" : "111" } }
+2020-12-11 21:06:41.5014 AllServer 0001 (Session.cs:142) { "_t" : "DBSaveResponse", "RpcId" : 12, "Error" : 0, "Message" : null }
+2020-12-11 21:06:41.5180 AllServer 0001 (Session.cs:142) { "_t" : "DBSaveRequest", "RpcId" : 13, "NeedCache" : true, "CollectionName" : null, "Component" : { "_t" : "UserInfo", "_id" : NumberLong("101607692002"), "C" : [], "UserName" : "rman3", "Phone" : NumberLong(0), "Email" : "", "Sex" : "", "Title" : "", "LastPlay" : 0 } }
+2020-12-11 21:06:41.5478 AllServer 0001 (Session.cs:142) { "_t" : "DBSaveResponse", "RpcId" : 13, "Error" : 0, "Message" : null }
+2020-12-11 21:25:38.6158 AllServer 0001 (Session.cs:142) { "_t" : "Login_C2R", "RpcId" : 1, "Account" : "", "Password" : "" }
+2020-12-11 21:25:38.6308 AllServer 0001 (Session.cs:142) { "_t" : "DBQueryJsonRequest", "RpcId" : 14, "CollectionName" : "AccountInfo", "Json" : "{Account:'',Password:''}" }
+2020-12-11 21:25:38.6619 AllServer 0001 (Session.cs:142) { "_t" : "DBQueryJsonResponse", "Components" : [], "RpcId" : 14, "Error" : 0, "Message" : null }
+2020-12-11 21:26:24.3962 AllServer 0001 (Session.cs:142) { "_t" : "Register_C2R", "RpcId" : 2, "Account" : "rman4", "Password" : "111", "Partition" : 0 }
+2020-12-11 21:26:24.4122 AllServer 0001 (Session.cs:142) { "_t" : "DBQueryJsonRequest", "RpcId" : 15, "CollectionName" : "AccountInfo", "Json" : "{Account:'rman4'}" }
+2020-12-11 21:26:24.4442 AllServer 0001 (Session.cs:142) { "_t" : "DBQueryJsonResponse", "Components" : [], "RpcId" : 15, "Error" : 0, "Message" : null }
+2020-12-11 21:26:24.4603 AllServer 0001 (Session.cs:142) { "_t" : "DBSaveRequest", "RpcId" : 16, "NeedCache" : true, "CollectionName" : null, "Component" : { "_t" : "AccountInfo", "_id" : NumberLong("101607693186"), "C" : [], "Account" : "rman4", "Password" : "111" } }
+2020-12-11 21:26:24.4910 AllServer 0001 (Session.cs:142) { "_t" : "DBSaveResponse", "RpcId" : 16, "Error" : 0, "Message" : null }
+2020-12-11 21:26:24.5070 AllServer 0001 (Session.cs:142) { "_t" : "DBSaveRequest", "RpcId" : 17, "NeedCache" : true, "CollectionName" : null, "Component" : { "_t" : "UserInfo", "_id" : NumberLong("101607693186"), "C" : [], "UserName" : "rman4", "Phone" : NumberLong(0), "Email" : "", "Sex" : "", "Title" : "", "LastPlay" : 0 } }
+2020-12-11 21:26:24.5388 AllServer 0001 (Session.cs:142) { "_t" : "DBSaveResponse", "RpcId" : 17, "Error" : 0, "Message" : null }
+2020-12-11 21:27:08.9486 AllServer 0001 (Session.cs:142) { "_t" : "Login_C2R", "RpcId" : 3, "Account" : "rman4", "Password" : "111" }
+2020-12-11 21:27:08.9645 AllServer 0001 (Session.cs:142) { "_t" : "DBQueryJsonRequest", "RpcId" : 18, "CollectionName" : "AccountInfo", "Json" : "{Account:'rman4',Password:'111'}" }
+2020-12-11 21:27:08.9966 AllServer 0001 (Session.cs:142) { "_t" : "DBQueryJsonResponse", "Components" : [{ "_t" : "AccountInfo", "_id" : NumberLong("101607693186"), "C" : [], "Account" : "rman4", "Password" : "111" }], "RpcId" : 18, "Error" : 0, "Message" : null }
+2020-12-11 21:27:09.0124 AllServer 0001 (Session.cs:142) { "_t" : "GetLoginKey_R2G", "RpcId" : 19, "UserID" : NumberLong("101607693186") }
+2020-12-11 21:27:09.0285 AllServer 0001 (Session.cs:142) { "_t" : "GetLoginKey_G2R", "RpcId" : 19, "Error" : 0, "Message" : null, "GateLoginKey" : NumberLong("-1451493105556570137") }
+2020-12-11 21:27:09.0441 AllServer 0001 (Session.cs:142) { "_t" : "LoginGate_C2G", "RpcId" : 4, "GateLoginKey" : NumberLong("-1451493105556570137") }
+2020-12-11 21:27:09.0600 AllServer 0001 (Session.cs:142) { "_t" : "PlayerOnline_G2R", "RpcId" : 0, "UserID" : NumberLong("101607693186"), "GateAppID" : 1 }
+2020-12-11 21:27:42.2859 AllServer 0001 (Session.cs:142) { "_t" : "Logout_C2R", "RpcId" : 0, "UserID" : NumberLong("101607693186") }
+2020-12-11 21:27:42.3022 AllServer 0001 (Session.cs:142) { "_t" : "KickOutPlayer_R2G", "RpcId" : 20, "UserID" : NumberLong("101607693186") }
+2020-12-11 21:27:42.3175 AllServer 0001 (Session.cs:142) { "_t" : "PlayerOffline_G2R", "RpcId" : 0, "UserID" : NumberLong("101607693186") }
+2020-12-11 21:27:42.3175 AllServer 0001 (Session.cs:142) { "_t" : "KickOutPlayer_G2R", "RpcId" : 20, "Error" : 0, "Message" : null }
+2020-12-11 21:29:26.7409 AllServer 0001 (Session.cs:142) { "_t" : "Login_C2R", "RpcId" : 1, "Account" : "rman4", "Password" : "222" }
+2020-12-11 21:29:26.7561 AllServer 0001 (Session.cs:142) { "_t" : "DBQueryJsonRequest", "RpcId" : 21, "CollectionName" : "AccountInfo", "Json" : "{Account:'rman4',Password:'222'}" }
+2020-12-11 21:29:26.7867 AllServer 0001 (Session.cs:142) { "_t" : "DBQueryJsonResponse", "Components" : [], "RpcId" : 21, "Error" : 0, "Message" : null }

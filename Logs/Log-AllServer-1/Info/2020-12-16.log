@@ -1,0 +1,24 @@
+2020-12-16 17:15:14.2802 AllServer 0001 (Program.cs:37) server start........................ 1 AllServer
+2020-12-16 17:15:14.8437 AllServer 0001 (DBProxyComponentSystem.cs:31) 127.0.0.1:20002
+2020-12-16 17:25:42.5384 AllServer 0001 (SessionUserComponentSystem.cs:14) 销毁User和Session101607681516
+2020-12-16 17:25:42.5571 AllServer 0001 (PlayerOffline.cs:13) 玩家101607681516下线
+2020-12-16 17:34:58.9488 AllServer 0001 (SessionUserComponentSystem.cs:14) 销毁User和Session101607681516
+2020-12-16 17:34:58.9636 AllServer 0001 (PlayerOffline.cs:13) 玩家101607681516下线
+2020-12-16 17:41:48.7128 AllServer 0001 (CreateNewCharacter.cs:27) 4
+2020-12-16 17:42:31.9495 AllServer 0001 (SessionUserComponentSystem.cs:14) 销毁User和Session101607681516
+2020-12-16 17:42:31.9629 AllServer 0001 (PlayerOffline.cs:13) 玩家101607681516下线
+2020-12-16 17:46:30.5485 AllServer 0001 (CreateNewCharacter.cs:27) 4
+2020-12-16 17:48:56.2522 AllServer 0001 (SessionUserComponentSystem.cs:14) 销毁User和Session101607681516
+2020-12-16 17:48:56.2679 AllServer 0001 (PlayerOffline.cs:13) 玩家101607681516下线
+2020-12-16 17:49:06.6872 AllServer 0001 (Program.cs:37) server start........................ 1 AllServer
+2020-12-16 17:49:07.0583 AllServer 0001 (DBProxyComponentSystem.cs:31) 127.0.0.1:20002
+2020-12-16 17:49:19.8687 AllServer 0001 (CreateNewCharacter.cs:27) 4
+2020-12-16 18:14:11.3461 AllServer 0001 (Program.cs:37) server start........................ 1 AllServer
+2020-12-16 18:14:11.8102 AllServer 0001 (DBProxyComponentSystem.cs:31) 127.0.0.1:20002
+2020-12-16 18:15:04.2588 AllServer 0001 (CreateNewCharacter.cs:27) 4
+2020-12-16 18:17:35.1324 AllServer 0001 (Program.cs:37) server start........................ 1 AllServer
+2020-12-16 18:17:35.5866 AllServer 0001 (DBProxyComponentSystem.cs:31) 127.0.0.1:20002
+2020-12-16 18:22:57.8872 AllServer 0001 (Program.cs:37) server start........................ 1 AllServer
+2020-12-16 18:22:58.3773 AllServer 0001 (DBProxyComponentSystem.cs:31) 127.0.0.1:20002
+2020-12-16 18:23:49.5000 AllServer 0001 (SessionUserComponentSystem.cs:14) 销毁User和Session101607681516
+2020-12-16 18:23:49.5308 AllServer 0001 (PlayerOffline.cs:13) 玩家101607681516下线

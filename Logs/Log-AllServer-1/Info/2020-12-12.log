@@ -1,0 +1,52 @@
+2020-12-12 01:35:05.9983 AllServer 0001 (Program.cs:36) server start........................ 1 AllServer
+2020-12-12 01:35:06.6284 AllServer 0001 (DBProxyComponentSystem.cs:31) 127.0.0.1:20002
+2020-12-12 01:40:10.6735 AllServer 0001 (SessionUserComponentSystem.cs:14) 销毁User和Session101607692002
+2020-12-12 01:40:10.7349 AllServer 0001 (PlayerOffline.cs:13) 玩家101607692002下线
+2020-12-12 13:56:21.4798 AllServer 0001 (Program.cs:37) server start........................ 1 AllServer
+2020-12-12 13:56:21.9979 AllServer 0001 (DBProxyComponentSystem.cs:31) 127.0.0.1:20002
+2020-12-12 13:56:30.8293 AllServer 0001 (Program.cs:37) server start........................ 1 AllServer
+2020-12-12 13:56:31.1966 AllServer 0001 (DBProxyComponentSystem.cs:31) 127.0.0.1:20002
+2020-12-12 14:29:34.8713 AllServer 0001 (Program.cs:37) server start........................ 1 AllServer
+2020-12-12 14:29:35.3389 AllServer 0001 (DBProxyComponentSystem.cs:31) 127.0.0.1:20002
+2020-12-12 14:38:32.2267 AllServer 0001 (Program.cs:37) server start........................ 1 AllServer
+2020-12-12 14:38:32.6731 AllServer 0001 (DBProxyComponentSystem.cs:31) 127.0.0.1:20002
+2020-12-12 14:51:47.8413 AllServer 0001 (Program.cs:37) server start........................ 1 AllServer
+2020-12-12 14:51:48.2653 AllServer 0001 (DBProxyComponentSystem.cs:31) 127.0.0.1:20002
+2020-12-12 15:11:25.0043 AllServer 0001 (Program.cs:37) server start........................ 1 AllServer
+2020-12-12 15:11:25.4838 AllServer 0001 (DBProxyComponentSystem.cs:31) 127.0.0.1:20002
+2020-12-12 15:18:27.0823 AllServer 0001 (Program.cs:37) server start........................ 1 AllServer
+2020-12-12 15:18:27.5182 AllServer 0001 (DBProxyComponentSystem.cs:31) 127.0.0.1:20002
+2020-12-12 16:41:57.1410 AllServer 0001 (Program.cs:37) server start........................ 1 AllServer
+2020-12-12 16:41:57.7125 AllServer 0001 (DBProxyComponentSystem.cs:31) 127.0.0.1:20002
+2020-12-12 17:46:36.8266 AllServer 0001 (Program.cs:37) server start........................ 1 AllServer
+2020-12-12 17:46:37.2268 AllServer 0001 (DBProxyComponentSystem.cs:31) 127.0.0.1:20002
+2020-12-12 17:56:02.2971 AllServer 0001 (Program.cs:37) server start........................ 1 AllServer
+2020-12-12 17:56:02.7307 AllServer 0001 (DBProxyComponentSystem.cs:31) 127.0.0.1:20002
+2020-12-12 18:00:11.5011 AllServer 0001 (Program.cs:37) server start........................ 1 AllServer
+2020-12-12 18:00:11.9343 AllServer 0001 (DBProxyComponentSystem.cs:31) 127.0.0.1:20002
+2020-12-12 18:26:30.4718 AllServer 0001 (SessionUserComponentSystem.cs:14) 销毁User和Session101607682163
+2020-12-12 18:26:30.5190 AllServer 0001 (PlayerOffline.cs:13) 玩家101607682163下线
+2020-12-12 19:23:59.2727 AllServer 0001 (Program.cs:37) server start........................ 1 AllServer
+2020-12-12 19:23:59.6470 AllServer 0001 (DBProxyComponentSystem.cs:31) 127.0.0.1:20002
+2020-12-12 19:24:27.4253 AllServer 0001 (SessionUserComponentSystem.cs:14) 销毁User和Session101607682163
+2020-12-12 19:24:27.4414 AllServer 0001 (PlayerOffline.cs:13) 玩家101607682163下线
+2020-12-12 19:40:44.4486 AllServer 0001 (Program.cs:37) server start........................ 1 AllServer
+2020-12-12 19:40:44.8202 AllServer 0001 (DBProxyComponentSystem.cs:31) 127.0.0.1:20002
+2020-12-12 19:41:02.2163 AllServer 0001 (SessionUserComponentSystem.cs:14) 销毁User和Session101607682163
+2020-12-12 19:41:02.2344 AllServer 0001 (PlayerOffline.cs:13) 玩家101607682163下线
+2020-12-12 21:02:55.3169 AllServer 0001 (Program.cs:37) server start........................ 1 AllServer
+2020-12-12 21:02:55.9075 AllServer 0001 (DBProxyComponentSystem.cs:31) 127.0.0.1:20002
+2020-12-12 21:06:27.8884 AllServer 0001 (Program.cs:37) server start........................ 1 AllServer
+2020-12-12 21:06:28.3730 AllServer 0001 (DBProxyComponentSystem.cs:31) 127.0.0.1:20002
+2020-12-12 21:06:40.0604 AllServer 0001 (Program.cs:37) server start........................ 1 AllServer
+2020-12-12 21:06:40.5450 AllServer 0001 (DBProxyComponentSystem.cs:31) 127.0.0.1:20002
+2020-12-12 21:18:36.5714 AllServer 0001 (Program.cs:37) server start........................ 1 AllServer
+2020-12-12 21:18:37.1145 AllServer 0001 (DBProxyComponentSystem.cs:31) 127.0.0.1:20002
+2020-12-12 21:23:43.8913 AllServer 0001 (Program.cs:37) server start........................ 1 AllServer
+2020-12-12 21:23:44.2654 AllServer 0001 (DBProxyComponentSystem.cs:31) 127.0.0.1:20002
+2020-12-12 21:51:31.1005 AllServer 0001 (Program.cs:37) server start........................ 1 AllServer
+2020-12-12 21:51:31.4697 AllServer 0001 (DBProxyComponentSystem.cs:31) 127.0.0.1:20002
+2020-12-12 22:02:25.1929 AllServer 0001 (Program.cs:37) server start........................ 1 AllServer
+2020-12-12 22:02:25.5461 AllServer 0001 (DBProxyComponentSystem.cs:31) 127.0.0.1:20002
+2020-12-12 22:14:49.6916 AllServer 0001 (SessionUserComponentSystem.cs:14) 销毁User和Session101607682163
+2020-12-12 22:14:49.7080 AllServer 0001 (PlayerOffline.cs:13) 玩家101607682163下线

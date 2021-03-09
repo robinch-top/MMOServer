@@ -1,0 +1,60 @@
+2020-12-13 14:15:30.4469 AllServer 0001 System.Exception: 查询数据库异常! Character {UserID:101607682163} ---> MongoDB.Bson.BsonSerializationException: Unknown discriminator value 'CharacterInfo'.
+   at MongoDB.Bson.Serialization.BsonSerializer.LookupActualType(Type nominalType, BsonValue discriminator) in E:\ETRpgLesson\MMOServer0.1\Server\ThirdParty\MongoDBDriver\MongoDB.Bson\Serialization\BsonSerializer.cs:line 334
+   at MongoDB.Bson.Serialization.Conventions.StandardDiscriminatorConvention.GetActualType(IBsonReader bsonReader, Type nominalType) in E:\ETRpgLesson\MMOServer0.1\Server\ThirdParty\MongoDBDriver\MongoDB.Bson\Serialization\Conventions\StandardDiscriminatorConvention.cs:line 109
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.Deserialize(BsonDeserializationContext context, BsonDeserializationArgs args) in E:\ETRpgLesson\MMOServer0.1\Server\ThirdParty\MongoDBDriver\MongoDB.Bson\Serialization\Serializers\BsonClassMapSerializer.cs:line 97
+   at MongoDB.Bson.Serialization.IBsonSerializerExtensions.Deserialize[TValue](IBsonSerializer`1 serializer, BsonDeserializationContext context) in E:\ETRpgLesson\MMOServer0.1\Server\ThirdParty\MongoDBDriver\MongoDB.Bson\Serialization\IBsonSerializerExtensions.cs:line 49
+   at MongoDB.Driver.Core.Operations.CursorBatchDeserializationHelper.DeserializeBatch[TDocument](RawBsonArray batch, IBsonSerializer`1 documentSerializer, MessageEncoderSettings messageEncoderSettings) in E:\ETRpgLesson\MMOServer0.1\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\Operations\CursorBatchDeserializationHelper.cs:line 59
+   at MongoDB.Driver.Core.Operations.FindCommandOperation`1.CreateCursorBatch(BsonDocument commandResult) in E:\ETRpgLesson\MMOServer0.1\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\Operations\FindCommandOperation.cs:line 483
+   at MongoDB.Driver.Core.Operations.FindCommandOperation`1.CreateCursor(IChannelSourceHandle channelSource, BsonDocument commandResult) in E:\ETRpgLesson\MMOServer0.1\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\Operations\FindCommandOperation.cs:line 460
+   at MongoDB.Driver.Core.Operations.FindCommandOperation`1.ExecuteAsync(IReadBinding binding, CancellationToken cancellationToken) in E:\ETRpgLesson\MMOServer0.1\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\Operations\FindCommandOperation.cs:line 525
+   at MongoDB.Driver.Core.Operations.FindOperation`1.ExecuteAsync(IReadBinding binding, CancellationToken cancellationToken) in E:\ETRpgLesson\MMOServer0.1\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\Operations\FindOperation.cs:line 442
+   at MongoDB.Driver.OperationExecutor.ExecuteReadOperationAsync[TResult](IReadBinding binding, IReadOperation`1 operation, CancellationToken cancellationToken) in E:\ETRpgLesson\MMOServer0.1\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\OperationExecutor.cs:line 39
+   at MongoDB.Driver.MongoCollectionImpl`1.ExecuteReadOperationAsync[TResult](IClientSessionHandle session, IReadOperation`1 operation, ReadPreference readPreference, CancellationToken cancellationToken) in E:\ETRpgLesson\MMOServer0.1\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\MongoCollectionImpl.cs:line 1055
+   at MongoDB.Driver.MongoCollectionImpl`1.UsingImplicitSessionAsync[TResult](Func`2 funcAsync, CancellationToken cancellationToken) in E:\ETRpgLesson\MMOServer0.1\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\MongoCollectionImpl.cs:line 1135
+   at ETModel.DBQuery2JsonTask.Run() in E:\ETRpgLesson\MMOServer0.1\Server\ET.Core\Module\DB\DBQuery2JsonTask.cs:line 34
+   --- End of inner exception stack trace ---
+   at ETHotfix.DBQuery2JsonRequestHandler.Run(Session session, DBQuery2JsonRequest request, DBQuery2JsonResponse response, Action reply) in E:\ETRpgLesson\MMOServer0.1\Server\Hotfix\Module\DB\DBQuery2JsonRequestHandler.cs:line 15 
+ TrySetException at offset 127 in file:line:column <filename unknown>:0:0
+FinishSlow at offset 24 in file:line:column <filename unknown>:0:0
+RunContinuations at offset 440 in file:line:column <filename unknown>:0:0
+RunCallback at offset 71 in file:line:column <filename unknown>:0:0
+<OutputWaitEtwEvents>b__12_0 at offset 323 in file:line:column <filename unknown>:0:0
+Run at offset 73 in file:line:column E:\ETRpgLesson\MMOServer0.1\Server\ET.Core\Base\Async\MoveNextRunner.cs:12:13
+MoveNext at offset 554 in file:line:column E:\ETRpgLesson\MMOServer0.1\Server\Hotfix\Module\DB\DBQuery2JsonRequestHandler.cs:15:5
+ReplyError at offset 75 in file:line:column E:\ETRpgLesson\MMOServer0.1\Server\ET.Core\Module\Message\AMRpcHandler.cs:9:4
+Error at offset 124 in file:line:column E:\ETRpgLesson\MMOServer0.1\Server\ET.Core\Base\Log.cs:32:4
+Error at offset 64 in file:line:column E:\ETRpgLesson\MMOServer0.1\Server\ET.Core\Base\Logger\NLogAdapter.cs:32:4
+
+2020-12-13 14:15:30.5667 AllServer 0001 System.Exception: Rpc Error: ETModel.DBQuery2JsonRequest 102001
+   at ETModel.ETTaskCompletionSource`1.ETModel.IAwaiter<T>.GetResult() in E:\ETRpgLesson\MMOServer0.1\Server\ET.Core\Base\Async\ETTaskCompletionSource.cs:line 171
+   at ETModel.ETTask`1.get_Result() in E:\ETRpgLesson\MMOServer0.1\Server\ET.Core\Base\Async\ETTask.cs:line 168
+   at ETModel.ETTask`1.Awaiter.GetResult() in E:\ETRpgLesson\MMOServer0.1\Server\ET.Core\Base\Async\ETTask.cs:line 254
+   at ETHotfix.DBProxyComponentEx.Query2[T](DBProxyComponent self, String json) in E:\ETRpgLesson\MMOServer0.1\Server\Hotfix\Module\DB\DBProxyComponentSystem.cs:line 106
+   at ETHotfix.GetCharactersHandler.Run(Session session, GetCharacters_C2G request, GetCharacters_G2C response, Action reply) in E:\ETRpgLesson\MMOServer0.1\Server\Hotfix\MMOServer\Gate\GetCharactersHandler.cs:line 27 
+ TrySetException at offset 127 in file:line:column <filename unknown>:0:0
+FinishSlow at offset 24 in file:line:column <filename unknown>:0:0
+RunContinuations at offset 440 in file:line:column <filename unknown>:0:0
+RunCallback at offset 71 in file:line:column <filename unknown>:0:0
+<OutputWaitEtwEvents>b__12_0 at offset 323 in file:line:column <filename unknown>:0:0
+Run at offset 73 in file:line:column E:\ETRpgLesson\MMOServer0.1\Server\ET.Core\Base\Async\MoveNextRunner.cs:12:13
+MoveNext at offset 839 in file:line:column E:\ETRpgLesson\MMOServer0.1\Server\Hotfix\MMOServer\Gate\GetCharactersHandler.cs:27:17
+ReplyError at offset 75 in file:line:column E:\ETRpgLesson\MMOServer0.1\Server\ET.Core\Module\Message\AMRpcHandler.cs:9:4
+Error at offset 124 in file:line:column E:\ETRpgLesson\MMOServer0.1\Server\ET.Core\Base\Log.cs:32:4
+Error at offset 64 in file:line:column E:\ETRpgLesson\MMOServer0.1\Server\ET.Core\Base\Logger\NLogAdapter.cs:32:4
+
+2020-12-13 19:48:16.8912 AllServer 0001 System.MissingMethodException: Method not found: 'ETModel.EquipInfo ETModel.Character.get_Head()'.
+   at ETHotfix.GetCharactersHandler.Run(Session session, GetCharacters_C2G request, GetCharacters_G2C response, Action reply)
+   at ETModel.AsyncETTaskMethodBuilder.Start[TStateMachine](TStateMachine& stateMachine) in E:\ETRpgLesson\MMOServer0.1\Server\ET.Core\Base\Async\AsyncETTaskMethodBuilder.cs:line 126
+   at ETHotfix.GetCharactersHandler.Run(Session session, GetCharacters_C2G request, GetCharacters_G2C response, Action reply)
+   at ETModel.AMRpcHandler`2.Handle(Session session, Object message) in E:\ETRpgLesson\MMOServer0.1\Server\ET.Core\Module\Message\AMRpcHandler.cs:line 45 
+ Dispatch at offset 91 in file:line:column E:\ETRpgLesson\MMOServer0.1\Server\Hotfix\Module\Message\OuterMessageDispatcher.cs:9:4
+DispatchAsync at offset 265 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 80 in file:line:column E:\ETRpgLesson\MMOServer0.1\Server\ET.Core\Base\Async\AsyncETVoidMethodBuilder.cs:74:13
+MoveNext at offset 3555 in file:line:column E:\ETRpgLesson\MMOServer0.1\Server\Hotfix\Module\Message\OuterMessageDispatcher.cs:81:6
+Handle at offset 504 in file:line:column E:\ETRpgLesson\MMOServer0.1\Server\Hotfix\Module\Message\MessageDispatherComponentSystem.cs:92:6
+Handle at offset 373 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 80 in file:line:column E:\ETRpgLesson\MMOServer0.1\Server\ET.Core\Base\Async\AsyncETVoidMethodBuilder.cs:74:13
+MoveNext at offset 1394 in file:line:column E:\ETRpgLesson\MMOServer0.1\Server\ET.Core\Module\Message\AMRpcHandler.cs:45:6
+Error at offset 124 in file:line:column E:\ETRpgLesson\MMOServer0.1\Server\ET.Core\Base\Log.cs:32:4
+Error at offset 64 in file:line:column E:\ETRpgLesson\MMOServer0.1\Server\ET.Core\Base\Logger\NLogAdapter.cs:32:4
+
